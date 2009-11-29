@@ -98,8 +98,8 @@ static id sharedInstance = nil;
 		[typeTextField setStringValue:NSFileTypeForHFSTypeCode([fileAttributes fileHFSTypeCode])];
 		[ownerTextField setStringValue:[fileAttributes fileOwnerAccountName]];
 		[groupTextField setStringValue:[fileAttributes fileGroupOwnerAccountName]];
-		[permissionsTextField setStringValue:[self stringFromPermissions:[fileAttributes filePosixPermissions]]];
-	}
+        [permissionsTextField setStringValue:[self stringFromPermissions:[fileAttributes filePosixPermissions]]];
+    }
 	
 	
 	SMLTextView *textView = SMLCurrentTextView;
@@ -177,18 +177,20 @@ static id sharedInstance = nil;
 }
 
 
+
 - (NSString *)stringFromPermissions:(unsigned long)permissions 
 {
     char permissionsString[10];
     strmode(permissions, permissionsString);
-	
+    
 	NSMutableString *returnString = [NSMutableString stringWithUTF8String:permissionsString];
-	[returnString deleteCharactersInRange:NSMakeRange(0, 1)];
-	[returnString insertString:@" " atIndex:3];
-	[returnString insertString:@" " atIndex:7];
-	[returnString insertString:@" " atIndex:11];
-	
+    [returnString deleteCharactersInRange:NSMakeRange(0, 1)];
+    [returnString insertString:@" " atIndex:3];
+    [returnString insertString:@" " atIndex:7];
+    [returnString insertString:@" " atIndex:11];
+    
     return returnString;
 }
+
 
 @end
