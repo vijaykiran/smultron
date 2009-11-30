@@ -169,11 +169,6 @@ static id sharedInstance = nil;
 	
 	[syntaxTextField setStringValue:[document valueForKey:@"syntaxDefinition"]];
 
-	if ([document valueForKey:@"path"] != nil) {
-		[spotlightTextField setStringValue:[SMLVarious performCommand:[NSString stringWithFormat:@"/usr/bin/mdls '%@'", [document valueForKey:@"path"]]]];
-	} else {
-		[spotlightTextField setStringValue:@""];
-	}
 }
 
 

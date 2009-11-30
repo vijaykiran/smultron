@@ -33,7 +33,6 @@ Unless required by applicable law or agreed to in writing, software distributed 
     IBOutlet NSTextField *positionTextField;
     IBOutlet NSTextField *selectionTextField;
     IBOutlet NSTextField *fileSizeTextField;
-    IBOutlet NSTextField *spotlightTextField;
     IBOutlet NSTextField *syntaxTextField;
     IBOutlet NSTextField *titleTextField;
     IBOutlet NSTextField *typeTextField;
