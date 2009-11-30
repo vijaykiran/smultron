@@ -58,11 +58,11 @@ Unless required by applicable law or agreed to in writing, software distributed 
 		@"OpenDocumentToolbarItem",
 		@"SaveDocumentToolbarItem",
 		@"CloseDocumentToolbarItem",
+        @"InfoToolbarItem",
 		NSToolbarFlexibleSpaceItemIdentifier,
-		@"QuicklyFindNextToolbarItem",
-		@"AdvancedFindToolbarItem",
-		NSToolbarFlexibleSpaceItemIdentifier,
-		@"InfoToolbarItem",
+        @"AdvancedFindToolbarItem",
+        NSToolbarFlexibleSpaceItemIdentifier,            
+        @"QuicklyFindNextToolbarItem",
 		nil];  
 } 
 
@@ -98,12 +98,12 @@ Unless required by applicable law or agreed to in writing, software distributed 
 		
 	} else if ([itemIdentifier isEqualToString:@"QuicklyFindNextToolbarItem"]) {
 		
-		return [NSToolbarItem createSeachFieldToolbarItemWithIdentifier:itemIdentifier name:NSLocalizedString(@"Live Find", @"Live Find") view:liveFindSearchField];
+		return [NSToolbarItem createSeachFieldToolbarItemWithIdentifier:itemIdentifier name:NSLocalizedString(@"Search", @"Search") view:liveFindSearchField];
 	
 		
 	} else if ([itemIdentifier isEqualToString:@"AdvancedFindToolbarItem"]) {
         
-		advancedFindToolbarItem = [NSToolbarItem createToolbarItemWithIdentifier:itemIdentifier name:NSLocalizedString(@"Advanced Find", @"Advanced Find") image:advancedFindImage action:@selector(advancedFind:) tag:0 target:self];
+		advancedFindToolbarItem = [NSToolbarItem createToolbarItemWithIdentifier:itemIdentifier name:NSLocalizedString(@"Advanced Search", @"Advanced Search") image:advancedFindImage action:@selector(advancedFind:) tag:0 target:self];
 		return advancedFindToolbarItem;
 		
 		

@@ -41,7 +41,7 @@
 			<object class="NSWindowTemplate" id="916622018">
 				<int key="NSWindowStyleMask">8223</int>
 				<int key="NSWindowBacking">2</int>
-				<string key="NSWindowRect">{{35, 320}, {279, 440}}</string>
+				<string key="NSWindowRect">{{1251, 320}, {279, 440}}</string>
 				<int key="NSWTFlags">1886912512</int>
 				<string key="NSWindowTitle">Info - Smultron</string>
 				<string key="NSWindowClass">NSPanel</string>
@@ -49,7 +49,7 @@
 					<characters key="NS.bytes">View</characters>
 				</object>
 				<string key="NSWindowContentMaxSize">{1.79769e+308, 1.79769e+308}</string>
-				<string key="NSWindowContentMinSize">{220, 440}</string>
+				<string key="NSWindowContentMinSize">{279, 440}</string>
 				<object class="NSView" key="NSWindowView" id="690790663">
 					<reference key="NSNextResponder"/>
 					<int key="NSvFlags">256</int>
@@ -670,8 +670,8 @@
 					<string key="NSFrameSize">{279, 440}</string>
 					<reference key="NSSuperview"/>
 				</object>
-				<string key="NSScreenRect">{{0, 0}, {1440, 878}}</string>
-				<string key="NSMinSize">{220, 459}</string>
+				<string key="NSScreenRect">{{0, 0}, {1680, 1028}}</string>
+				<string key="NSMinSize">{279, 459}</string>
 				<string key="NSMaxSize">{1.79769e+308, 1.79769e+308}</string>
 				<string key="NSFrameAutosaveName">InfoWindow</string>
 			</object>
@@ -1638,14 +1638,14 @@
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
 					<integer value="1"/>
-					<string>{{35, 320}, {279, 440}}</string>
+					<string>{{1251, 320}, {279, 440}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>{{35, 320}, {279, 440}}</string>
+					<string>{{1251, 320}, {279, 440}}</string>
 					<integer value="1"/>
 					<boolean value="NO"/>
 					<integer value="1"/>
 					<string>{3.40282e+38, 3.40282e+38}</string>
-					<string>{220, 440}</string>
+					<string>{279, 440}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
