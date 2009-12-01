@@ -20,7 +20,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
 	
 	NSString *statusBarBetweenString;
 	NSString *statusBarLastSavedString;
-	NSString *statusBarDocumentLengthString;
+//	NSString *statusBarDocumentLengthString;
 	NSString *statusBarSelectionLengthString;
 	NSString *statusBarPositionString;
 	NSString *statusBarSyntaxDefinitionString;

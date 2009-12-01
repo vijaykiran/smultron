@@ -217,7 +217,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
 
 - (void)setDefaultAppearanceAtStartup
 {
-	[[statusBarTextField cell] setBackgroundStyle:NSBackgroundStyleRaised];
+	[[statusBarTextField cell] setBackgroundStyle:NSBackgroundStyleLight];
 	
 	SMLDocumentsListCell *cell = [[SMLDocumentsListCell alloc] init];
 	[cell setWraps:NO];

@@ -76,6 +76,7 @@ static id sharedInstance = nil;
 
 - (void)awakeFromNib
 {
+    
 	// If the application crashed so these weren't removed, remove them now
 	[SMLBasic removeAllObjectsForEntity:@"Document"];
 	[SMLBasic removeAllObjectsForEntity:@"Encoding"];

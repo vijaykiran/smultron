@@ -57,7 +57,6 @@ static id sharedInstance = nil;
 		
 		statusBarBetweenString = [[NSString alloc] initWithFormat:@"  %C  ", 0x00B7];
 		statusBarLastSavedString = NSLocalizedString(@"Saved", @"Saved, in the status bar");
-		statusBarDocumentLengthString = NSLocalizedString(@"Length", @"Length, in the status bar");
 		statusBarSelectionLengthString = NSLocalizedString(@"Selection", @"Selection, in the status bar");
 		statusBarPositionString = NSLocalizedString(@"Position", @"Position, in the status bar");
 		statusBarSyntaxDefinitionString = NSLocalizedString(@"Syntax", @"Syntax, in the status bar");
@@ -373,17 +372,13 @@ static id sharedInstance = nil;
 	SMLTextView *textView = SMLCurrentTextView;
 	NSString *text = SMLCurrentText;
 	
-	if ([[SMLDefaults valueForKey:@"StatusBarShowWhenLastSaved"] boolValue] == YES)
-		[statusBarString appendFormat:@"%@: %@", statusBarLastSavedString, [document valueForKey:@"lastSaved"]];
+	if ([[SMLDefaults valueForKey:@"StatusBarShowWhenLastSaved"] boolValue] == YES){
+        		[statusBarString appendFormat:@"%@: %@", statusBarLastSavedString, [document valueForKey:@"lastSaved"]];
+    }
+
 	
-	if ([[SMLDefaults valueForKey:@"StatusBarShowLength"] boolValue] == YES) {
-		if ([[SMLDefaults valueForKey:@"StatusBarShowWhenLastSaved"] boolValue] == YES) {
-			[statusBarString appendString:statusBarBetweenString];
-		}
+
 		
-		[statusBarString appendFormat:@"%@: %@", statusBarDocumentLengthString, [SMLBasic thousandFormatedStringFromNumber:[NSNumber numberWithUnsignedInteger:[text length]]]];
-	}
-	
 	NSArray *array = [textView selectedRanges];
 	NSInteger selection = 0;
 	for (id item in array) {
@@ -397,7 +392,7 @@ static id sharedInstance = nil;
 	}
 	
 	if ([[SMLDefaults valueForKey:@"StatusBarShowPosition"] boolValue] == YES) {
-		if ([[SMLDefaults valueForKey:@"StatusBarShowWhenLastSaved"] boolValue] == YES || [[SMLDefaults valueForKey:@"StatusBarShowLength"] boolValue] == YES || ([[SMLDefaults valueForKey:@"StatusBarShowSelection"] boolValue] == YES && selection > 1)) {
+		if ([[SMLDefaults valueForKey:@"StatusBarShowWhenLastSaved"] boolValue] == YES || ([[SMLDefaults valueForKey:@"StatusBarShowSelection"] boolValue] == YES && selection > 1)) {
 			[statusBarString appendString:statusBarBetweenString];
 		}
 		NSRange selectionRange;
@@ -410,7 +405,7 @@ static id sharedInstance = nil;
 	}
 	
 	if ([[SMLDefaults valueForKey:@"StatusBarShowEncoding"] boolValue] == YES) {
-		if ([[SMLDefaults valueForKey:@"StatusBarShowWhenLastSaved"] boolValue] == YES || [[SMLDefaults valueForKey:@"StatusBarShowLength"] boolValue] == YES || ([[SMLDefaults valueForKey:@"StatusBarShowSelection"] boolValue] == YES && selection > 1) || [[SMLDefaults valueForKey:@"StatusBarShowPosition"] boolValue] == YES) {
+		if ([[SMLDefaults valueForKey:@"StatusBarShowWhenLastSaved"] boolValue] == YES || ([[SMLDefaults valueForKey:@"StatusBarShowSelection"] boolValue] == YES && selection > 1) || [[SMLDefaults valueForKey:@"StatusBarShowPosition"] boolValue] == YES) {
 			[statusBarString appendString:statusBarBetweenString];
 		}
 		[statusBarString appendFormat:@"%@: %@", statusBarEncodingString, [document valueForKey:@"encodingName"]];
