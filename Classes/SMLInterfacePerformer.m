@@ -1,16 +1,16 @@
 /*
-Smultron version 3.6b1, 2009-09-12
-Written by Peter Borg, pgw3@mac.com
-Find the latest version at http://smultron.sourceforge.net
-
-Copyright 2004-2009 Peter Borg
+ Smultron version 3.6b1, 2009-09-12
+ Written by Peter Borg, pgw3@mac.com
+ Find the latest version at http://smultron.sourceforge.net
  
-Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+ Copyright 2004-2009 Peter Borg
  
-http://www.apache.org/licenses/LICENSE-2.0
+ Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
  
-Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
-*/
+ http://www.apache.org/licenses/LICENSE-2.0
+ 
+ Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+ */
 
 #import "SMLStandardHeader.h"
 
@@ -58,7 +58,8 @@ static id sharedInstance = nil;
 		statusBarBetweenString = [[NSString alloc] initWithFormat:@"  %C  ", 0x00B7];
 		statusBarLastSavedString = NSLocalizedString(@"Saved", @"Saved, in the status bar");
 		statusBarSelectionLengthString = NSLocalizedString(@"Selection", @"Selection, in the status bar");
-		statusBarPositionString = NSLocalizedString(@"Position", @"Position, in the status bar");
+        statusBarLineString = NSLocalizedString(@"Line", @"Line, in the status bar");
+        statusBarColumnString = NSLocalizedString(@"Column", @"Column, in the status bar");
 		statusBarSyntaxDefinitionString = NSLocalizedString(@"Syntax", @"Syntax, in the status bar");
 		statusBarEncodingString = NSLocalizedString(@"Encoding", @"Encoding, in the status bar");
 		
@@ -109,7 +110,7 @@ static id sharedInstance = nil;
 	}
 	
 	[textScrollView setDocumentView:textView];
-
+    
 	NSScrollView *gutterScrollView = [[NSScrollView alloc] initWithFrame:NSMakeRect(0, 0, [[SMLDefaults valueForKey:@"GutterWidth"] integerValue], contentSize.height)];
 	[gutterScrollView setBorderType:NSNoBorder];
 	[gutterScrollView setHasVerticalScroller:NO];
@@ -215,11 +216,11 @@ static id sharedInstance = nil;
 	NSWindowController *windowController = [[NSWindowController alloc] initWithWindowNibName:@"SMLSingleDocument"];
 	
 	NSWindow *window = [windowController window];
-
-	// For some reason this code does not work, so save the frame manually in SMLSingleDocumentWindowDelegate and use that
-	//[windowController setShouldCascadeWindows:NO];
-	//[windowController setWindowFrameAutosaveName:@"SingleDocumentWindow"];
-	//[window setFrameAutosaveName:@"SingleDocumentWindow"];
+    
+        // For some reason this code does not work, so save the frame manually in SMLSingleDocumentWindowDelegate and use that
+        //[windowController setShouldCascadeWindows:NO];
+        //[windowController setWindowFrameAutosaveName:@"SingleDocumentWindow"];
+        //[window setFrameAutosaveName:@"SingleDocumentWindow"];
 	
 	if ([SMLDefaults valueForKey:@"SingleDocumentWindow"] != nil) {
 		[window setFrame:NSRectFromString([SMLDefaults valueForKey:@"SingleDocumentWindow"]) display:NO animate:NO];
@@ -373,12 +374,12 @@ static id sharedInstance = nil;
 	NSString *text = SMLCurrentText;
 	
 	if ([[SMLDefaults valueForKey:@"StatusBarShowWhenLastSaved"] boolValue] == YES){
-        		[statusBarString appendFormat:@"%@: %@", statusBarLastSavedString, [document valueForKey:@"lastSaved"]];
+        [statusBarString appendFormat:@"%@: %@", statusBarLastSavedString, [document valueForKey:@"lastSaved"]];
     }
-
+    
 	
-
-		
+    
+    
 	NSArray *array = [textView selectedRanges];
 	NSInteger selection = 0;
 	for (id item in array) {
@@ -401,7 +402,20 @@ static id sharedInstance = nil;
 		} else {
 			selectionRange = [textView selectedRange];
 		}
-		[statusBarString appendFormat:@"%@: %@\\%@", statusBarPositionString, [SMLBasic thousandFormatedStringFromNumber:[NSNumber numberWithInteger:(selectionRange.location - [text lineRangeForRange:selectionRange].location)]], [SMLBasic thousandFormatedStringFromNumber:[NSNumber numberWithInteger:selectionRange.location]]];
+
+        
+
+        NSNumber *column = [NSNumber numberWithInteger:(selectionRange.location - [text lineRangeForRange:selectionRange].location + 1)] ;
+        NSNumber *line = [NSNumber numberWithInteger:([text lineRangeForRange:selectionRange].location + 1)];
+
+        
+		[statusBarString appendFormat:@"%@: %@  %@: %@", statusBarLineString, 
+                                                    [SMLBasic thousandFormatedStringFromNumber:line], 
+                                                    statusBarColumnString,
+                                                    [SMLBasic thousandFormatedStringFromNumber:column]];
+        
+        [line release];
+        [column release];
 	}
 	
 	if ([[SMLDefaults valueForKey:@"StatusBarShowEncoding"] boolValue] == YES) {
@@ -461,7 +475,7 @@ static id sharedInstance = nil;
 	} else {
 		directory = [SMLDefaults valueForKey:@"SaveAsAlwaysUseTextField"];
 	}
-
+    
 	return [directory stringByExpandingTildeInPath];
 }
 
@@ -469,12 +483,12 @@ static id sharedInstance = nil;
 - (void)removeAllSubviewsFromView:(NSView *)view
 {
 	[view setSubviews:[NSArray array]];
-	//NSArray *array = [NSArray arrayWithArray:[view subviews]];
-//	id item;
-//	for (item in array) {
-//		[item removeFromSuperview];
-//		item = nil;
-//	}
+        //NSArray *array = [NSArray arrayWithArray:[view subviews]];
+        //	id item;
+        //	for (item in array) {
+        //		[item removeFromSuperview];
+        //		item = nil;
+        //	}
 }
 
 
@@ -490,7 +504,7 @@ static id sharedInstance = nil;
 		width = [[document valueForKey:@"firstTextView"] bounds].size.width * [[NSScreen mainScreen] userSpaceScaleFactor];
 	}
 	fullScreenRect = NSMakeRect(fullScreenRect.origin.x - ((width - fullScreenRect.size.width + [[document valueForKey:@"gutterWidth"] floatValue]) / 2), fullScreenRect.origin.y, width + [[document valueForKey:@"gutterWidth"] floatValue], fullScreenRect.size.height);
-
+    
 	fullScreenWindow = [[SMLFullScreenWindow alloc] initWithContentRect:[[NSScreen mainScreen] frame] styleMask:NSBorderlessWindowMask backing:NSBackingStoreBuffered defer:NO screen:[NSScreen mainScreen]];
 	
 	if ([SMLMain singleDocumentWindowWasOpenBeforeEnteringFullScreen] == NO) {
@@ -546,7 +560,7 @@ static id sharedInstance = nil;
 - (void)insertAllFunctionsIntoMenu:(NSMenu *)menu
 {
 	NSArray *allFunctions = [self allFunctions];
-
+    
 	if ([allFunctions count] == 0) {
 		NSMenuItem *menuItem = [[NSMenuItem alloc] initWithTitle:NSLocalizedString(@"Not applicable", @"Not applicable in insertAllFunctionsIntoMenu") action:nil keyEquivalent:@""];
 		[menuItem setState:NSOffState];
@@ -598,7 +612,7 @@ static id sharedInstance = nil;
 	
 	ICUPattern *pattern = [[ICUPattern alloc] initWithString:functionDefinition flags:(ICUCaseInsensitiveMatching | ICUMultiline)];
 	ICUMatcher *matcher = [[ICUMatcher alloc] initWithPattern:pattern overString:text];
-
+    
 	NSInteger index = 0;
 	NSInteger lineNumber = 0;
 	NSMutableArray *returnArray = [NSMutableArray array];
