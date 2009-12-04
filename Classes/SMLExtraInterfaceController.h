@@ -24,7 +24,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
 	IBOutlet NSWindow *detabWindow;
 	IBOutlet NSWindow *goToLineWindow;
 	
-	IBOutlet NSView *openPanelAccessoryView;
+    IBOutlet NSView *openPanelAccessoryView;
 	IBOutlet NSPopUpButton *openPanelEncodingsPopUp;
 	//IBOutlet NSView *printAccessoryView;
 	

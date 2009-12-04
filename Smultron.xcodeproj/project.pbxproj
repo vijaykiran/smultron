@@ -477,11 +477,11 @@
 		2A37F4B8FDCFA73011CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				7F9809E70B73B4F4000A9140 /* Syntax Definitions */,
 				7F5C24D90B73BCF200D2EDDC /* Xibs */,
 				7F9809B40B73B4C8000A9140 /* Graphics */,
 				2FEC50CD0B96DB8D000CF1AD /* Other */,
 				7F980A930B73B660000A9140 /* SyntaxDefinitions.plist */,
-				7F9809E70B73B4F4000A9140 /* Syntax Definitions */,
 				7F980A940B73B660000A9140 /* DefaultSnippets.plist */,
 				2F6CF2E10B848515008B0386 /* DefaultCommands.plist */,
 				7F980A950B73B660000A9140 /* Smultron.sdef */,
