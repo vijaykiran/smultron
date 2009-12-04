@@ -1148,10 +1148,11 @@
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_GC = supported;
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
-				GCC_VERSION = 4.0;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				ONLY_ACTIVE_ARCH = YES;
@@ -1172,9 +1173,10 @@
 				);
 				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../SmultronSource\"";
 				FRAMEWORK_SEARCH_PATHS_QUOTED_2 = "\"$(SRCROOT)\"";
+				GCC_ENABLE_OBJC_GC = supported;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
-				GCC_VERSION = 4.0;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				ONLY_ACTIVE_ARCH = YES;

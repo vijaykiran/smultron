@@ -175,14 +175,15 @@ static id sharedInstance = nil;
 
 - (NSString *)stringFromPermissions:(unsigned long)permissions 
 {
-    char permissionsString[10];
+    char permissionsString[10] = "---------\0";
     strmode(permissions, permissionsString);
     
-	NSMutableString *returnString = [NSMutableString stringWithUTF8String:permissionsString];
+	NSMutableString *returnString = [[NSMutableString stringWithUTF8String:permissionsString] retain];
     [returnString deleteCharactersInRange:NSMakeRange(0, 1)];
     [returnString insertString:@" " atIndex:3];
     [returnString insertString:@" " atIndex:7];
     [returnString insertString:@" " atIndex:11];
+    
     
     return returnString;
 }
