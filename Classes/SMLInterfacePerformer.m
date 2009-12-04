@@ -406,15 +406,13 @@ static id sharedInstance = nil;
         
 
         NSNumber *column = [NSNumber numberWithInteger:(selectionRange.location - [text lineRangeForRange:selectionRange].location + 1)] ;
-        NSNumber *line = [NSNumber numberWithInteger:([text lineRangeForRange:selectionRange].location + 1)];
 
         
-		[statusBarString appendFormat:@"%@: %@  %@: %@", statusBarLineString, 
-                                                    [SMLBasic thousandFormatedStringFromNumber:line], 
+		[statusBarString appendFormat:@"%@: %d  %@: %@", statusBarLineString, 
+                                                    [SMLInterface currentLineNumber], 
                                                     statusBarColumnString,
                                                     [SMLBasic thousandFormatedStringFromNumber:column]];
         
-        [line release];
         [column release];
 	}
 	
