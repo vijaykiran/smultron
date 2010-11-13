@@ -1,7 +1,7 @@
 /*
-Smultron version 3.6b1, 2009-09-12
-Written by Peter Borg, pgw3@mac.com
-Find the latest version at http://smultron.sourceforge.net
+Textron
+Based on Smultron Written by Peter Borg, pgw3@mac.com
+Find the latest version at http://vijaykiran.com/textron
 
 Copyright 2004-2009 Peter Borg
  
@@ -124,17 +124,17 @@ static id sharedInstance = nil;
 
 - (void)installCommandLineUtility
 {
-	NSString *smultronPath = [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"smultron"];
-	NSData *smultronData = [[NSData alloc] initWithContentsOfFile:smultronPath];
-	NSString *smultronManPagePath = [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"smultron.1"];
-	NSData *smultronManPageData = [[NSData alloc] initWithContentsOfFile:smultronManPagePath];
+	NSString *TextronPath = [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"Textron"];
+	NSData *TextronData = [[NSData alloc] initWithContentsOfFile:TextronPath];
+	NSString *TextronManPagePath = [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"Textron.1"];
+	NSData *TextronManPageData = [[NSData alloc] initWithContentsOfFile:TextronManPagePath];
 	
 	NSTask *task = [[NSTask alloc] init];
     NSPipe *pipe = [[NSPipe alloc] init];
     NSFileHandle *writeHandle = [pipe fileHandleForWriting];
 	
     [task setLaunchPath:@"/usr/libexec/authopen"];
-    [task setArguments:[NSArray arrayWithObjects:@"-c", @"-m", @"0755", @"-w", @"/usr/bin/smultron", nil]];
+    [task setArguments:[NSArray arrayWithObjects:@"-c", @"-m", @"0755", @"-w", @"/usr/bin/Textron", nil]];
     [task setStandardInput:pipe];
 	
 	[task launch];
@@ -142,7 +142,7 @@ static id sharedInstance = nil;
 	NSInteger status;
 	signal(SIGPIPE, SIG_IGN); // One seems to need this code if someone writes the wrong password three times, otherwise it crashes the application
 	@try {
-		[writeHandle writeData:smultronData];
+		[writeHandle writeData:TextronData];
 		
 		close([writeHandle fileDescriptor]); // Close it manually
 		[writeHandle setValue:[NSNumber numberWithUnsignedShort:1] forKey:@"_flags"];
@@ -163,11 +163,11 @@ static id sharedInstance = nil;
 		writeHandle = [pipe fileHandleForWriting];
 		
 		[task setLaunchPath:@"/usr/libexec/authopen"];
-		[task setArguments:[NSArray arrayWithObjects:@"-c", @"-w", @"/usr/share/man/man1/smultron.1", nil]];
+		[task setArguments:[NSArray arrayWithObjects:@"-c", @"-w", @"/usr/share/man/man1/Textron.1", nil]];
 		[task setStandardInput:pipe];
 		
 		[task launch];
-		[writeHandle writeData:smultronManPageData];
+		[writeHandle writeData:TextronManPageData];
 		
 		close([writeHandle fileDescriptor]); // Close it manually
 		[writeHandle setValue:[NSNumber numberWithUnsignedShort:1] forKey:@"_flags"];

@@ -1,7 +1,7 @@
 /*
-Smultron version 3.6b1, 2009-09-12
-Written by Peter Borg, pgw3@mac.com
-Find the latest version at http://smultron.sourceforge.net
+Textron
+Based on Smultron Written by Peter Borg, pgw3@mac.com
+Find the latest version at http://vijaykiran.com/textron
 
 Copyright 2004-2009 Peter Borg
  
@@ -35,7 +35,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
 					  @selector(installCommandLineUtiltiySheetDidEnd:returnCode:contextInfo:),
 					  nil,
 					  nil,
-					  NSLocalizedString(@"If you choose Install smultron will be installed in /usr/bin and its man page in /usr/share/man/man1 and you can use it directly in the Terminal (you may need to authenticate twice with an administrators username and password). Otherwise you can choose to place all the files you need on the Desktop and install it manually.", @"Indicate that if you choose Install smultron will be installed in /usr/bin and its man page in /usr/share/man/man1 and you can use it directly in the Terminal (you may need to authenticate twice with an administrators username and password). Otherwise you can choose to place all the files you need on the desktop and install it manually. in Install-command-line-utility sheet"));
+					  NSLocalizedString(@"If you choose Install Textron will be installed in /usr/bin and its man page in /usr/share/man/man1 and you can use it directly in the Terminal (you may need to authenticate twice with an administrators username and password). Otherwise you can choose to place all the files you need on the Desktop and install it manually.", @"Indicate that if you choose Install Textron will be installed in /usr/bin and its man page in /usr/share/man/man1 and you can use it directly in the Terminal (you may need to authenticate twice with an administrators username and password). Otherwise you can choose to place all the files you need on the desktop and install it manually. in Install-command-line-utility sheet"));
 }
 
 
@@ -47,17 +47,17 @@ Unless required by applicable law or agreed to in writing, software distributed 
 		NSFileManager *fileManager = [NSFileManager defaultManager];
 		NSWorkspace *workspace = [NSWorkspace sharedWorkspace];
 		NSString *pathToFolder = [[NSHomeDirectory() stringByAppendingPathComponent:@"Desktop"]
-        stringByAppendingPathComponent:@"Smultron command-line utility"];
+        stringByAppendingPathComponent:@"Textron command-line utility"];
 		[fileManager createDirectoryAtPath:pathToFolder withIntermediateDirectories:YES attributes:nil error:nil];
 		
-		[workspace performFileOperation:NSWorkspaceCopyOperation source:[[NSBundle mainBundle] resourcePath] destination:pathToFolder files:[NSArray arrayWithObjects:@"smultron", @"smultron.1", @"smultron - installation instructions", nil] tag:NULL];
+		[workspace performFileOperation:NSWorkspaceCopyOperation source:[[NSBundle mainBundle] resourcePath] destination:pathToFolder files:[NSArray arrayWithObjects:@"Textron", @"Textron.1", @"Textron - installation instructions", nil] tag:NULL];
 	}
 }
 
 
-- (IBAction)smultronHelp:(id)sender
+- (IBAction)TextronHelp:(id)sender
 {
-	[[NSWorkspace sharedWorkspace] openFile:[[NSBundle mainBundle] pathForResource:@"Smultron-Manual" ofType:@"pdf"]];
+	[[NSWorkspace sharedWorkspace] openFile:[[NSBundle mainBundle] pathForResource:@"Textron-Manual" ofType:@"pdf"]];
 }
 
 @end

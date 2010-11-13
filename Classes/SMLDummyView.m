@@ -1,7 +1,7 @@
 /*
-Smultron version 3.6b1, 2009-09-12
-Written by Peter Borg, pgw3@mac.com
-Find the latest version at http://smultron.sourceforge.net
+Textron
+Based on Smultron Written by Peter Borg, pgw3@mac.com
+Find the latest version at http://vijaykiran.com/textron
 
 Copyright 2004-2009 Peter Borg
  
@@ -24,10 +24,10 @@ Unless required by applicable law or agreed to in writing, software distributed 
         
 		gradient = [[NSGradient alloc] initWithStartingColor:[NSColor colorWithCalibratedWhite:0.12 alpha:1.0] endingColor:[NSColor colorWithCalibratedWhite:0.38 alpha:1.0]];
 		
-		smultronImage = [NSImage imageNamed:@"SMLMainIcon.icns"];
+		TextronImage = [NSImage imageNamed:@"SMLMainIcon.icns"];
 		[[NSGraphicsContext currentContext] setImageInterpolation:NSImageInterpolationHigh];
-		[smultronImage setSize:NSMakeSize(128.0, 128.0)];
-		[[smultronImage bestRepresentationForRect:NSMakeRect(0.0, 0.0, 128.0, 128.0) context:nil hints:nil] setSize:NSMakeSize(128.0, 128.0)];
+		[TextronImage setSize:NSMakeSize(128.0, 128.0)];
+		[[TextronImage bestRepresentationForRect:NSMakeRect(0.0, 0.0, 128.0, 128.0) context:nil hints:nil] setSize:NSMakeSize(128.0, 128.0)];
 
 		attributes = [[NSMutableDictionary alloc] init];
 		[attributes setValue:[NSFont boldSystemFontOfSize:20] forKey:NSFontAttributeName];
@@ -68,11 +68,11 @@ Unless required by applicable law or agreed to in writing, software distributed 
 		[attributedString drawAtPoint:NSMakePoint(((attributedStringSize.width / -2) + bounds.size.width / 2), (attributedStringSize.height / -2) + (bounds.size.height / 2) - 38)];
 		
 		NSRect centeredRect = rect;
-		centeredRect.size = [smultronImage size];
+		centeredRect.size = [TextronImage size];
 		centeredRect.origin.x += ((rect.size.width - centeredRect.size.width) / 2.0);
 		centeredRect.origin.y = ((rect.size.height - centeredRect.size.height) / 2.0) + 48;
 		
-		[smultronImage drawInRect:centeredRect fromRect:NSZeroRect operation:NSCompositeSourceOver fraction:0.80];
+		[TextronImage drawInRect:centeredRect fromRect:NSZeroRect operation:NSCompositeSourceOver fraction:0.80];
 	}
 }
 

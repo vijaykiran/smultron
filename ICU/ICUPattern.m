@@ -89,9 +89,6 @@ unsigned const ICUUnicodeWordBoundaries = UREGEX_UWORD;
 	[super finalize];
 }
 
--(NSString *)stringToSearch {
-	return [NSString stringWithICUString:[self textToSearch]];
-}
 
 -(void)setStringToSearch:(NSString *)aStringToSearchOver {
 	NSParameterAssert(aStringToSearchOver);
@@ -180,59 +177,7 @@ unsigned const ICUUnicodeWordBoundaries = UREGEX_UWORD;
 	return nil;
 }
 
--(NSArray *)componentsSplitFromString:(NSString *)stringToSplit
-{
-	[self setStringToSearch:stringToSplit];
-	BOOL isDone = NO;
-	UErrorCode status = 0;
 
-	NSMutableArray *results = [NSMutableArray array];
-	int destFieldsCapacity = 16;
-	size_t destCapacity = u_strlen([self textToSearch]);
-
-	while(!isDone) {
-		UChar *destBuf = (UChar *)NSZoneCalloc([self zone], destCapacity, sizeof(UChar));
-		int requiredCapacity = 0;
-		UChar *destFields[destFieldsCapacity];
-		int numberOfComponents = uregex_split([self re],
-											  destBuf,
-											  destCapacity,
-											  &requiredCapacity,
-											  destFields,
-											  destFieldsCapacity,
-											  &status);
-		
-		if(status == U_BUFFER_OVERFLOW_ERROR) { // buffer was too small, grow it
-			NSZoneFree([self zone], destBuf);
-			NSAssert(destCapacity * 2 < INT_MAX, @"Overflow occurred splitting string.");
-			destCapacity = (destCapacity < requiredCapacity) ? requiredCapacity : destCapacity * 2;
-			status = 0;
-		} else if(destFieldsCapacity == numberOfComponents) {
-			destFieldsCapacity *= 2;
-			NSAssert(destFieldsCapacity *2 < INT_MAX, @"Overflow occurred splitting string.");
-			NSZoneFree([self zone], destBuf);
-			status = 0;
-		} else if(U_FAILURE(status)) {
-			NSZoneFree([self zone], destBuf);
-			isDone = YES;
-		} else {
-			int i;
-			
-			for(i=0; i<numberOfComponents; i++) {
-				NSAssert(i < destFieldsCapacity, @"Unexpected number of components found in split.");
-				UChar *offsetStart = destFields[i];					
-				[results addObject:[NSString stringWithICUString:offsetStart]];
-			}
-			isDone = YES;
-		}
-	}
-
-	if(U_FAILURE(status))
-		[NSException raise:@"Split Exception"
-					format:@"Unable to split string: %@", u_errorName(status)];
-
-	return [NSArray arrayWithArray:results];	
-}
 
 -(BOOL)matchesString:(NSString *)stringToMatchAgainst {
 	ICUMatcher *m = [ICUMatcher matcherWithPattern:self overString:stringToMatchAgainst];

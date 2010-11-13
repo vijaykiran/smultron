@@ -1,7 +1,7 @@
 /*
-Smultron version 3.6b1, 2009-09-12
-Written by Peter Borg, pgw3@mac.com
-Find the latest version at http://smultron.sourceforge.net
+Textron
+Based on Smultron Written by Peter Borg, pgw3@mac.com
+Find the latest version at http://vijaykiran.com/textron
 
 Copyright 2004-2009 Peter Borg
  
@@ -62,7 +62,7 @@ static id sharedInstance = nil;
 {
     NSArray *paths = NSSearchPathForDirectoriesInDomains(NSApplicationSupportDirectory, NSUserDomainMask, YES);
     NSString *basePath = ([paths count] > 0) ? [paths objectAtIndex:0] : NSTemporaryDirectory();
-    return [basePath stringByAppendingPathComponent:@"Smultron"];
+    return [basePath stringByAppendingPathComponent:@"Textron"];
 }
 
 
@@ -93,7 +93,7 @@ static id sharedInstance = nil;
         [fileManager createDirectoryAtPath:applicationSupportFolder withIntermediateDirectories:YES attributes:nil error:nil];
     }
 
-	NSString *storePath = [applicationSupportFolder stringByAppendingPathComponent: @"Smultron3.smultron"];
+	NSString *storePath = [applicationSupportFolder stringByAppendingPathComponent: @"Textron3.Textron"];
 	
 	NSURL *url = [NSURL fileURLWithPath:storePath];
     persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:[self managedObjectModel]];
@@ -263,7 +263,7 @@ static id sharedInstance = nil;
 		[SMLOpenSave openAllTheseFiles:filesToOpenArray];
 		[SMLCurrentProject selectionDidChange];
 		filesToOpenArray = nil;
-	} else { // Open previously opened documents/projects only if Smultron wasn't opened by e.g. dragging a document onto the icon
+	} else { // Open previously opened documents/projects only if Textron wasn't opened by e.g. dragging a document onto the icon
 		
 		if ([[SMLDefaults valueForKey:@"OpenAllDocumentsIHadOpen"] boolValue] == YES && [[SMLDefaults valueForKey:@"OpenDocuments"] count] > 0) {
 			shouldCreateEmptyDocument = NO;
@@ -363,7 +363,7 @@ static id sharedInstance = nil;
 
 - (void)applicationDidBecomeActive:(NSNotification *)aNotification
 {
-	if ([[SMLDefaults valueForKey:@"CheckIfDocumentHasBeenUpdated"] boolValue] == YES) { // Check for updates directly when Smultron gets focus
+	if ([[SMLDefaults valueForKey:@"CheckIfDocumentHasBeenUpdated"] boolValue] == YES) { // Check for updates directly when Textron gets focus
 		[SMLVarious checkIfDocumentsHaveBeenUpdatedByAnotherApplication];
 	}
 }
@@ -381,11 +381,11 @@ static id sharedInstance = nil;
 		
 		NSFileManager *fileManager = [NSFileManager defaultManager];
 		NSString *applicationSupportFolder = [self applicationSupportFolder];
-		if (![fileManager fileExistsAtPath:[applicationSupportFolder stringByAppendingPathComponent:@"Smultron.smultron"] isDirectory:NULL]) {
+		if (![fileManager fileExistsAtPath:[applicationSupportFolder stringByAppendingPathComponent:@"Textron.Textron"] isDirectory:NULL]) {
 			return;
 		}
 		
-		NSURL *url = [NSURL fileURLWithPath:[applicationSupportFolder stringByAppendingPathComponent:@"Smultron.smultron"]];
+		NSURL *url = [NSURL fileURLWithPath:[applicationSupportFolder stringByAppendingPathComponent:@"Textron.Textron"]];
 		NSPersistentStoreCoordinator *persistentStoreCoordinatorVersion2 = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:managedObjectModelVersion2];
 		if (![persistentStoreCoordinatorVersion2 addPersistentStoreWithType:NSBinaryStoreType configuration:nil URL:url options:nil error:nil]){
 			return;

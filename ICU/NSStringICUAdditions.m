@@ -58,11 +58,6 @@ typedef struct URegularExpression URegularExpression;
 	return [p componentsSplitFromString:self];
 }
 
-+(NSString *)stringWithICUString:(void *)utf16EncodedString {
-	return [[NSString alloc] initWithBytes:utf16EncodedString 
-									 length:u_strlen(utf16EncodedString)*sizeof(UChar) 
-								   encoding:[self nativeUTF16Encoding]];	
-}
 
 +(NSStringEncoding)nativeUTF16Encoding {
 	CFStringEncoding stringEncoding;

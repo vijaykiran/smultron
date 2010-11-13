@@ -1,7 +1,7 @@
 /*
-Smultron version 3.6b1, 2009-09-12
-Written by Peter Borg, pgw3@mac.com
-Find the latest version at http://smultron.sourceforge.net
+Textron
+Based on Smultron Written by Peter Borg, pgw3@mac.com
+Find the latest version at http://vijaykiran.com/textron
 
 Copyright 2004-2009 Peter Borg
  
@@ -199,7 +199,7 @@ static id sharedInstance = nil;
 		[SMLCurrentProject selectionDidChange];	
 	} else {
 		NSSavePanel *savePanel = [NSSavePanel savePanel];
-		[savePanel setAllowedFileTypes:[NSArray arrayWithObject:@"smultronProject"]];
+		[savePanel setAllowedFileTypes:[NSArray arrayWithObject:@"TextronProject"]];
 		[savePanel beginSheetForDirectory:[SMLInterface whichDirectoryForSave]
 									 file:nil
 						   modalForWindow:newProjectWindow
@@ -219,7 +219,7 @@ static id sharedInstance = nil;
 	if (returnCode == NSOKButton) {
 		[[SMLProjectsController sharedDocumentController] newDocument:nil];
 		[SMLCurrentProject setFileURL:[NSURL fileURLWithPath:[sheet filename]]];
-		[SMLCurrentProject saveToURL:[NSURL fileURLWithPath:[sheet filename]] ofType:@"smultronProject" forSaveOperation:NSSaveOperation error:nil];
+		[SMLCurrentProject saveToURL:[NSURL fileURLWithPath:[sheet filename]] ofType:@"TextronProject" forSaveOperation:NSSaveOperation error:nil];
 		[SMLCurrentProject updateWindowTitleBarForDocument:nil];
 		[SMLCurrentProject saveDocument:nil];
 	}

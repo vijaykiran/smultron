@@ -1,7 +1,7 @@
 /*
-Smultron version 3.6b1, 2009-09-12
-Written by Peter Borg, pgw3@mac.com
-Find the latest version at http://smultron.sourceforge.net
+Textron
+Based on Smultron Written by Peter Borg, pgw3@mac.com
+Find the latest version at http://vijaykiran.com/textron
 
 Copyright 2004-2009 Peter Borg
  
@@ -14,7 +14,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
 
 #import "SMLStandardHeader.h"
 
-#import "NSToolbarItem+Smultron.h"
+#import "NSToolbarItem+Textron.h"
 #import "SMLCommandsController.h"
 #import "SMLDocumentsListCell.h"
 #import "SMLApplicationDelegate.h"
@@ -168,7 +168,7 @@ static id sharedInstance = nil;
 	[openPanel setResolvesAliases:YES];		
 	[openPanel beginSheetForDirectory:[SMLInterface whichDirectoryForOpen] 
 							file:nil 
-						   types:[NSArray arrayWithObject:@"smultronCommands"] 
+						   types:[NSArray arrayWithObject:@"TextronCommands"] 
 				  modalForWindow:commandsWindow
 				   modalDelegate:self
 				  didEndSelector:@selector(openPanelDidEnd:returnCode:contextInfo:)
@@ -224,7 +224,7 @@ static id sharedInstance = nil;
 - (void)exportCommands
 {
 	NSSavePanel *savePanel = [NSSavePanel savePanel];
-	[savePanel setRequiredFileType:@"smultronCommands"];
+	[savePanel setRequiredFileType:@"TextronCommands"];
 	[savePanel beginSheetForDirectory:[SMLInterface whichDirectoryForSave]				
 								 file:[[[commandCollectionsArrayController selectedObjects] objectAtIndex:0] valueForKey:@"name"]
 					   modalForWindow:commandsWindow

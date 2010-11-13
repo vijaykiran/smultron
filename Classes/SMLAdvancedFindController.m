@@ -1,7 +1,7 @@
 /*
-Smultron version 3.6b1, 2009-09-12
-Written by Peter Borg, pgw3@mac.com
-Find the latest version at http://smultron.sourceforge.net
+Textron
+		
+Find the latest version at http://vijaykiran.com/textron
 
 Copyright 2004-2009 Peter Borg
  
@@ -16,9 +16,6 @@ Unless required by applicable law or agreed to in writing, software distributed 
 
 #import "SMLAdvancedFindController.h"
 
-#import "ICUPattern.h"
-#import "ICUMatcher.h"
-#import "NSStringICUAdditions.h"
 #import "SMLExtraInterfaceController.h"
 #import "SMLProjectsController.h"
 #import "SMLBasicPerformer.h"

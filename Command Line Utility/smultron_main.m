@@ -1,7 +1,7 @@
 /*
-Smultron version 3.6b1, 2009-09-12
-Written by Peter Borg, pgw3@mac.com
-Find the latest version at http://smultron.sourceforge.net
+Textron
+Based on Smultron Written by Peter Borg, pgw3@mac.com
+Find the latest version at http://vijaykiran.com/textron
 
 Copyright 2004-2009 Peter Borg
  
@@ -21,8 +21,8 @@ int main (int argc, const char * argv[]) {
 	NSFileManager *fileManager = [NSFileManager defaultManager];
 	NSWorkspace *workspace = [NSWorkspace sharedWorkspace];
 	if (!argv[1]) { // There is no argument
-		if (![workspace launchApplication:@"Smultron.app"]) {
-			NSLog(@"Can't open Smultron");
+		if (![workspace launchApplication:@"Textron.app"]) {
+			NSLog(@"Can't open Textron");
 		}
 	} else { // We should open files
 		short i = 1;
@@ -38,8 +38,8 @@ int main (int argc, const char * argv[]) {
 				[fileManager createFileAtPath:path contents:nil attributes:attributes];
 			}
 
-			if (![workspace openFile:path withApplication:@"Smultron.app"]) { // Open file
-				NSLog(@"Couldn't open %@ with Smultron", path);
+			if (![workspace openFile:path withApplication:@"Textron.app"]) { // Open file
+				NSLog(@"Couldn't open %@ with Textron", path);
 			}
 			i++;
 		}

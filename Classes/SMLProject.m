@@ -1,7 +1,7 @@
 /*
-Smultron version 3.6b1, 2009-09-12
-Written by Peter Borg, pgw3@mac.com
-Find the latest version at http://smultron.sourceforge.net
+Textron
+Based on Smultron Written by Peter Borg, pgw3@mac.com
+Find the latest version at http://vijaykiran.com/textron
 
 Copyright 2004-2009 Peter Borg
  
@@ -15,7 +15,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
 
 #import "SMLStandardHeader.h"
 
-#import "NSImage+Smultron.h"
+#import "NSImage+Textron.h"
 #import "SMLProject.h"
 #import "SMLBasicPerformer.h"
 #import "SMLProjectsController.h"
@@ -65,8 +65,8 @@ Unless required by applicable law or agreed to in writing, software distributed 
 {
 	[super windowControllerDidLoadNib:aController];
 	
-	[[[self windowControllers] objectAtIndex:0] setWindowFrameAutosaveName:@"SmultronProjectWindow"];
-	[[self window] setFrameAutosaveName:@"SmultronProjectWindow"];
+	[[[self windowControllers] objectAtIndex:0] setWindowFrameAutosaveName:@"TextronProjectWindow"];
+	[[self window] setFrameAutosaveName:@"TextronProjectWindow"];
 	//[[[self windowControllers] objectAtIndex:0] setShouldCascadeWindows:NO];
 	
 	[self setDefaultAppearanceAtStartup];
@@ -460,7 +460,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
 	} else {
 		[currentWindow setDocumentEdited:NO];
 		[currentWindow setRepresentedFilename:[[NSBundle mainBundle] bundlePath]];
-		[currentWindow setTitle:@"Smultron"];
+		[currentWindow setTitle:@"Textron"];
 	}
 }
 

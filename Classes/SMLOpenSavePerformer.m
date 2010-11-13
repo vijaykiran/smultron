@@ -1,7 +1,7 @@
 /*
-Smultron version 3.6b1, 2009-09-12
-Written by Peter Borg, pgw3@mac.com
-Find the latest version at http://smultron.sourceforge.net
+Textron
+Based on Smultron Written by Peter Borg, pgw3@mac.com
+Find the latest version at http://vijaykiran.com/textron
 
 Copyright 2004-2009 Peter Borg
  
@@ -15,7 +15,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
 #import "SMLStandardHeader.h"
 
 #import "SMLOpenSavePerformer.h"
-#import "NSImage+Smultron.h"
+#import "NSImage+Textron.h"
 
 #import "SMLVariousPerformer.h"
 #import "SMLProjectsController.h"
@@ -59,9 +59,9 @@ static id sharedInstance = nil;
 	NSString *filename;
 	NSMutableArray *projectsArray = [NSMutableArray array];
 	for (filename in arrayOfFiles) {
-		if ([[filename pathExtension] isEqualToString:@"smlc"] || [[filename pathExtension] isEqualToString:@"smultronSnippets"]) { // If the file are code snippets do an import
+		if ([[filename pathExtension] isEqualToString:@"smlc"] || [[filename pathExtension] isEqualToString:@"TextronSnippets"]) { // If the file are code snippets do an import
 			[[SMLSnippetsController sharedInstance] performSnippetsImportWithPath:filename];
-		} else if ([[filename pathExtension] isEqualToString:@"smlp"] || [[filename pathExtension] isEqualToString:@"smultronProject"]) { // If the file is a project open all its files
+		} else if ([[filename pathExtension] isEqualToString:@"smlp"] || [[filename pathExtension] isEqualToString:@"TextronProject"]) { // If the file is a project open all its files
 			[projectsArray addObject:filename];
 		} else {
 			[self shouldOpen:[SMLBasic resolveAliasInPath:filename] withEncoding:0];
@@ -238,7 +238,7 @@ static id sharedInstance = nil;
 - (void)performOpenWithPath:(NSString *)path contents:(NSString *)textString encoding:(NSStringEncoding)encoding
 {
 	if (SMLCurrentProject == nil) {
-		if ([[[SMLProjectsController sharedDocumentController] documents] count] > 0) { // When working as an external editor some programs cause Smultron to not have an active document and thus no current project
+		if ([[[SMLProjectsController sharedDocumentController] documents] count] > 0) { // When working as an external editor some programs cause Textron to not have an active document and thus no current project
 			[[SMLProjectsController sharedDocumentController] setCurrentProject:[[SMLProjectsController sharedDocumentController] documentForWindow:[[NSApp orderedWindows] objectAtIndex:0]]];
 		} else {
 			[[SMLProjectsController sharedDocumentController] newDocument:nil];
@@ -358,7 +358,7 @@ static id sharedInstance = nil;
 	}
 	
 	if (![string canBeConvertedToEncoding:[[document valueForKey:@"encoding"] integerValue]]) {
-		NSError *error = [NSError errorWithDomain:SMULTRON_ERROR_DOMAIN code:SmultronSaveErrorEncodingInapplicable userInfo:[NSDictionary dictionaryWithObjectsAndKeys:[NSString stringWithFormat:NSLocalizedStringFromTable(@"This document can no longer be saved using its original %@ encoding.", @"Localizable3", @"Title of alert panel informing user that the file's string encoding needs to be changed."), [NSString localizedNameOfStringEncoding:[[document valueForKey:@"encoding"] integerValue]]], NSLocalizedDescriptionKey, NSLocalizedStringFromTable(@"Please choose another encoding (such as UTF-8).", @"Localizable3", @"Subtitle of alert panel informing user that the file's string encoding needs to be changed"), NSLocalizedRecoverySuggestionErrorKey, nil]];
+		NSError *error = [NSError errorWithDomain:Textron_ERROR_DOMAIN code:TextronSaveErrorEncodingInapplicable userInfo:[NSDictionary dictionaryWithObjectsAndKeys:[NSString stringWithFormat:NSLocalizedStringFromTable(@"This document can no longer be saved using its original %@ encoding.", @"Localizable3", @"Title of alert panel informing user that the file's string encoding needs to be changed."), [NSString localizedNameOfStringEncoding:[[document valueForKey:@"encoding"] integerValue]]], NSLocalizedDescriptionKey, NSLocalizedStringFromTable(@"Please choose another encoding (such as UTF-8).", @"Localizable3", @"Subtitle of alert panel informing user that the file's string encoding needs to be changed"), NSLocalizedRecoverySuggestionErrorKey, nil]];
 		[SMLCurrentProject presentError:error modalForWindow:SMLCurrentWindow delegate:self didPresentSelector:nil contextInfo:NULL];
 		return;
 	}
@@ -427,7 +427,7 @@ static id sharedInstance = nil;
 				[attributes removeObjectForKey:@"NSFilePosixPermissions"];
 			}
 			
-			if ([[SMLDefaults valueForKey:@"AssignDocumentToSmultronWhenSaving"] boolValue] == YES || [[document valueForKey:@"isNewDocument"] boolValue]) {
+			if ([[SMLDefaults valueForKey:@"AssignDocumentToTextronWhenSaving"] boolValue] == YES || [[document valueForKey:@"isNewDocument"] boolValue]) {
 				[attributes setValue:[NSNumber numberWithUnsignedLong:'SMUL'] forKey:@"NSFileHFSCreatorCode"];
 				[attributes setValue:[NSNumber numberWithUnsignedLong:'SMLd'] forKey:@"NSFileHFSTypeCode"];
 			}
@@ -448,7 +448,7 @@ static id sharedInstance = nil;
 		
 		NSDictionary *extraMetaData = [self getExtraMetaDataFromPath:path];
 		attributes = [NSMutableDictionary dictionaryWithDictionary:[fileManager attributesOfItemAtPath:path error:nil]];
-		if ([[SMLDefaults valueForKey:@"AssignDocumentToSmultronWhenSaving"] boolValue] == YES) {
+		if ([[SMLDefaults valueForKey:@"AssignDocumentToTextronWhenSaving"] boolValue] == YES) {
 			[attributes setObject:[NSNumber numberWithUnsignedLong:'SMUL'] forKey:@"NSFileHFSCreatorCode"];
 			[attributes setObject:[NSNumber numberWithUnsignedLong:'SMLd'] forKey:@"NSFileHFSTypeCode"];
 		}

@@ -1,7 +1,7 @@
 /*
-Smultron version 3.6b1, 2009-09-12
-Written by Peter Borg, pgw3@mac.com
-Find the latest version at http://smultron.sourceforge.net
+Textron
+Based on Smultron Written by Peter Borg, pgw3@mac.com
+Find the latest version at http://vijaykiran.com/textron
 
 Copyright 2004-2009 Peter Borg
  
@@ -16,7 +16,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
 #import "SMLStandardHeader.h"
 
 #import "SMLPreferencesController.h"
-#import "NSString+Smultron.h"
+#import "NSString+Textron.h"
 #import "SMLBasicPerformer.h"
 #import "SMLVariousPerformer.h"
 #import "SMLProjectsController.h"
@@ -27,7 +27,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
 #import "SMLMainController.h"
 #import "SMLApplicationDelegate.h"
 #import "SMLProject.h"
-#import "NSToolbarItem+Smultron.h"
+#import "NSToolbarItem+Textron.h"
 
 @implementation SMLPreferencesController
 
@@ -113,7 +113,7 @@ static id sharedInstance = nil;
 	[dictionary setValue:[NSNumber numberWithBool:YES] forKey:@"ShowLineNumberGutter"];
 	[dictionary setValue:[NSNumber numberWithBool:YES] forKey:@"SyntaxColourNewDocuments"];
 	[dictionary setValue:[NSNumber numberWithBool:YES] forKey:@"LineWrapNewDocuments"];
-	[dictionary setValue:[NSNumber numberWithBool:YES] forKey:@"AssignDocumentToSmultronWhenSaving"];
+	[dictionary setValue:[NSNumber numberWithBool:YES] forKey:@"AssignDocumentToTextronWhenSaving"];
 	[dictionary setValue:[NSNumber numberWithBool:YES] forKey:@"IndentNewLinesAutomatically"];
 	[dictionary setValue:[NSNumber numberWithBool:YES] forKey:@"OnlyColourTillTheEndOfLine"];
 	[dictionary setValue:[NSNumber numberWithBool:NO] forKey:@"CheckIfDocumentHasBeenUpdated"];
@@ -291,7 +291,7 @@ static id sharedInstance = nil;
 		[preferencesWindow setToolbar:preferencesToolbar];
 		
 		
-		[preferencesWindow setTitle:NSLocalizedStringFromTable(@"Preferences - Smultron", @"Localizable3", @"Preferences - Smultron")];
+		[preferencesWindow setTitle:NSLocalizedStringFromTable(@"Preferences - Textron", @"Localizable3", @"Preferences - Textron")];
 	}
 	
 	if ([preferencesToolbar selectedItemIdentifier] == nil) {

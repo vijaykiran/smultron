@@ -1,7 +1,7 @@
 /*
-Smultron version 3.6b1, 2009-09-12
-Written by Peter Borg, pgw3@mac.com
-Find the latest version at http://smultron.sourceforge.net
+Textron
+Based on Smultron Written by Peter Borg, pgw3@mac.com
+Find the latest version at http://vijaykiran.com/textron
 
 Copyright 2004-2009 Peter Borg
  
@@ -15,7 +15,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
 #import "SMLStandardHeader.h"
 
 #import "SMLVariousPerformer.h"
-#import "NSString+Smultron.h"
+#import "NSString+Textron.h"
 #import "SMLBasicPerformer.h"
 #import "SMLProjectsController.h"
 #import "SMLMainController.h"
@@ -24,7 +24,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
 #import "SMLExtraInterfaceController.h"
 #import "SMLProject.h"
 #import "SMLProject+DocumentViewsController.h"
-#import "NSImage+Smultron.h"
+#import "NSImage+Textron.h"
 
 #import "ODBEditorSuite.h"
 
@@ -84,7 +84,7 @@ static id sharedInstance = nil;
 	const NSStringEncoding *availableEncodings = [NSString availableStringEncodings];
 	NSStringEncoding encoding;
 	NSArray *activeEncodings = [SMLDefaults valueForKey:@"ActiveEncodings"];
-	while (encoding = *availableEncodings++) {
+	while ((encoding = *availableEncodings++)) {
 		id item = [SMLBasic createNewObjectForEntity:@"Encoding"];
 		NSNumber *encodingObject = [NSNumber numberWithInteger:encoding];
 		if ([activeEncodings containsObject:encodingObject]) {
@@ -100,7 +100,7 @@ static id sharedInstance = nil;
 {
 	isChangingSyntaxDefinitionsProgrammatically = YES;
 	NSMutableArray *syntaxDefinitionsArray = [[NSMutableArray alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"SyntaxDefinitions" ofType:@"plist"]];
-	NSString *path = [[[[NSHomeDirectory() stringByAppendingPathComponent:@"Library"] stringByAppendingPathComponent:@"Application Support"] stringByAppendingPathComponent:@"Smultron"] stringByAppendingPathComponent:@"SyntaxDefinitions.plist"];
+	NSString *path = [[[[NSHomeDirectory() stringByAppendingPathComponent:@"Library"] stringByAppendingPathComponent:@"Application Support"] stringByAppendingPathComponent:@"Textron"] stringByAppendingPathComponent:@"SyntaxDefinitions.plist"];
 	if ([[NSFileManager defaultManager] fileExistsAtPath:path] == YES) {
 		NSArray *syntaxDefinitionsUserArray = [[NSArray alloc] initWithContentsOfFile:path];
 		[syntaxDefinitionsArray addObjectsFromArray:syntaxDefinitionsUserArray];

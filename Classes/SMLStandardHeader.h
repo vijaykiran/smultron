@@ -1,7 +1,8 @@
 /*
-Smultron version 3.6b1, 2009-09-12
-Written by Peter Borg, pgw3@mac.com
-Find the latest version at http://smultron.sourceforge.net
+Textron
+Based on Smultron Written by Peter Borg, pgw3@mac.com
+ 
+Find the latest version at http://vijaykiran.com/textron
 
 Copyright 2004-2009 Peter Borg
  
@@ -77,10 +78,10 @@ typedef struct _AppleEventSelectionRange {
 } AppleEventSelectionRange;
 
 typedef enum {
-    SmultronSaveErrorEncodingInapplicable = 1,
+    TextronSaveErrorEncodingInapplicable = 1,
 } SMLErrors;
 
-#define SMULTRON_ERROR_DOMAIN @"org.smultron.Smultron.ErrorDomain"
+#define Textron_ERROR_DOMAIN @"org.Textron.Textron.ErrorDomain"
 
 #import <Cocoa/Cocoa.h>
 #import <Carbon/Carbon.h>
@@ -132,7 +133,7 @@ typedef enum {
 #define WILL_DELETE_ALL_ITEMS_IN_COLLECTION NSLocalizedStringFromTable(@"This will delete all items in the collection %@. Are you sure you want to continue?", @"Localizable3", @"This will delete all items in the collection %@. Are you sure you want to continue?")
 #define NEW_COLLECTION_STRING NSLocalizedStringFromTable(@"New Collection", @"Localizable3", @"New Collection")
 #define FILTER_STRING NSLocalizedStringFromTable(@"Filter", @"Localizable3", @"Filter")
-#define COMMAND_RESULT_WINDOW_TITLE NSLocalizedStringFromTable(@"Command Result - Smultron", @"Localizable3", @"Command Result - Smultron")
+#define COMMAND_RESULT_WINDOW_TITLE NSLocalizedStringFromTable(@"Command Result - Textron", @"Localizable3", @"Command Result - Textron")
 #define FILE_IS_UNWRITABLE_SAVE_STRING NSLocalizedStringFromTable(@"It seems as if the file is unwritable or that you do not have permission to save the file %@", @"Localizable3", @"It seems as if the file is unwritable or that you do not have permission to save the file %@")
 
 #define NO_DOCUMENT_SELECTED_STRING NSLocalizedString(@"No document selected", @"Indicate that no document is selected for the dummy view")

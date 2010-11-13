@@ -1,7 +1,7 @@
 /*
-Smultron version 3.6b1, 2009-09-12
-Written by Peter Borg, pgw3@mac.com
-Find the latest version at http://smultron.sourceforge.net
+Textron
+Based on Smultron Written by Peter Borg, pgw3@mac.com
+Find the latest version at http://vijaykiran.com/textron
 
 Copyright 2004-2009 Peter Borg
  
@@ -15,7 +15,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
 #import "SMLStandardHeader.h"
 
 #import "SMLSnippetsController.h"
-#import "NSToolbarItem+Smultron.h"
+#import "NSToolbarItem+Textron.h"
 #import "SMLDragAndDropController.h"
 #import "SMLTextView.h"
 #import "SMLMainController.h"
@@ -191,7 +191,7 @@ static id sharedInstance = nil;
 	[openPanel setResolvesAliases:YES];		
 	[openPanel beginSheetForDirectory:[SMLInterface whichDirectoryForOpen] 
 							file:nil 
-						   types:[NSArray arrayWithObjects:@"smlc", @"smultronSnippets", nil] 
+						   types:[NSArray arrayWithObjects:@"smlc", @"TextronSnippets", nil] 
 					   modalForWindow:snippetsWindow
 					modalDelegate:self
 				  didEndSelector:@selector(openPanelDidEnd:returnCode:contextInfo:)
@@ -247,7 +247,7 @@ static id sharedInstance = nil;
 - (void)exportSnippets
 {
 	NSSavePanel *savePanel = [NSSavePanel savePanel];
-	[savePanel setRequiredFileType:@"smultronSnippets"];	
+	[savePanel setRequiredFileType:@"TextronSnippets"];	
 	[savePanel beginSheetForDirectory:[SMLInterface whichDirectoryForSave]				
 								 file:[[[snippetCollectionsArrayController selectedObjects] objectAtIndex:0] valueForKey:@"name"]
 					   modalForWindow:snippetsWindow

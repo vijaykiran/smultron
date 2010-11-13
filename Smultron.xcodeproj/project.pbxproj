@@ -11,7 +11,6 @@
 		2F6CF2E20B848515008B0386 /* DefaultCommands.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F6CF2E10B848515008B0386 /* DefaultCommands.plist */; };
 		2F7040F90BBBE07F00D43CAF /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2F7040F80BBBE07F00D43CAF /* Credits.rtf */; };
 		2F8C9F030B8054E100C6502F /* SMLDummyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8C9F020B8054E100C6502F /* SMLDummyView.m */; };
-		2F8CCC130BA8158E00BA791C /* NSStringICUAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8CCC110BA8158E00BA791C /* NSStringICUAdditions.m */; };
 		2FC46AFE0BD608C500F209AA /* SMLCommandsIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 2FC46AFC0BD608C500F209AA /* SMLCommandsIcon.icns */; };
 		2FC46AFF0BD608C500F209AA /* SMLSnippetsIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 2FC46AFD0BD608C500F209AA /* SMLSnippetsIcon.icns */; };
 		2FCFEBC20B820D0F00E635EE /* SMLCommandCollectionManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCFEBC10B820D0F00E635EE /* SMLCommandCollectionManagedObject.m */; };
@@ -36,9 +35,9 @@
 		7F5C287E0B73C4AA00D2EDDC /* SMLInterfacePerformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5C287C0B73C4AA00D2EDDC /* SMLInterfacePerformer.m */; };
 		7F6C9C680B75F23000531EF9 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F6C9C670B75F23000531EF9 /* libicucore.dylib */; };
 		7F7444C90CF8DDEC00C947C1 /* SMLAdvancedFindPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7444C80CF8DDEC00C947C1 /* SMLAdvancedFindPanel.m */; };
-		7F79EE370D93D5500034017B /* NSString+Smultron.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F79EE360D93D5500034017B /* NSString+Smultron.m */; };
-		7F79EE3A0D93D5760034017B /* NSImage+Smultron.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F79EE390D93D5760034017B /* NSImage+Smultron.m */; };
-		7F79EE3D0D93D58C0034017B /* NSToolbarItem+Smultron.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F79EE3C0D93D58C0034017B /* NSToolbarItem+Smultron.m */; };
+		7F79EE370D93D5500034017B /* NSString+Textron.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F79EE360D93D5500034017B /* NSString+Textron.m */; };
+		7F79EE3A0D93D5760034017B /* NSImage+Textron.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F79EE390D93D5760034017B /* NSImage+Textron.m */; };
+		7F79EE3D0D93D58C0034017B /* NSToolbarItem+Textron.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F79EE3C0D93D58C0034017B /* NSToolbarItem+Textron.m */; };
 		7F81FEDC0BA9DDCD00549CDB /* Tab Bar in Resources */ = {isa = PBXBuildFile; fileRef = 7F81FED50BA9DDCD00549CDB /* Tab Bar */; };
 		7F81FF030BA9DDF600549CDB /* PSMOverflowPopUpButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F81FEF40BA9DDF600549CDB /* PSMOverflowPopUpButton.m */; };
 		7F81FF050BA9DDF600549CDB /* PSMRolloverButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F81FEF80BA9DDF600549CDB /* PSMRolloverButton.m */; };
@@ -101,8 +100,6 @@
 		7F980B380B73B6A2000A9140 /* SMLVariousPerformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F980B060B73B6A2000A9140 /* SMLVariousPerformer.m */; };
 		7F980B390B73B6A2000A9140 /* SMLViewMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F980B080B73B6A2000A9140 /* SMLViewMenuController.m */; };
 		7F9C38DE0BD29AE200B45805 /* SMLDataModel2.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 7F9C38DD0BD29AE200B45805 /* SMLDataModel2.xcdatamodel */; };
-		7FA2666E0B7796BE00AEA870 /* ICUMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA266690B7796BE00AEA870 /* ICUMatcher.m */; };
-		7FA2666F0B7796BE00AEA870 /* ICUPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA2666B0B7796BE00AEA870 /* ICUPattern.m */; };
 		7FAD46800D9E43A600ECD508 /* SMLPrintViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAD467F0D9E43A600ECD508 /* SMLPrintViewController.m */; };
 		7FB41E060B7A2A43006ADB1E /* SMLOpenSavePerformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB41E050B7A2A43006ADB1E /* SMLOpenSavePerformer.m */; };
 		7FB91155101E61B6008DB1DA /* SMLAdvancedFind.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5168D7C20D9276DF005225AB /* SMLAdvancedFind.xib */; };
@@ -175,8 +172,6 @@
 		2F7040F80BBBE07F00D43CAF /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = Credits.rtf; path = Other/Credits.rtf; sourceTree = "<group>"; };
 		2F8C9F010B8054E100C6502F /* SMLDummyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMLDummyView.h; path = Classes/SMLDummyView.h; sourceTree = "<group>"; };
 		2F8C9F020B8054E100C6502F /* SMLDummyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMLDummyView.m; path = Classes/SMLDummyView.m; sourceTree = "<group>"; };
-		2F8CCC110BA8158E00BA791C /* NSStringICUAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSStringICUAdditions.m; path = ICU/NSStringICUAdditions.m; sourceTree = "<group>"; };
-		2F8CCC120BA8158E00BA791C /* NSStringICUAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSStringICUAdditions.h; path = ICU/NSStringICUAdditions.h; sourceTree = "<group>"; };
 		2FC46AFC0BD608C500F209AA /* SMLCommandsIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = SMLCommandsIcon.icns; path = Graphics/SMLCommandsIcon.icns; sourceTree = "<group>"; };
 		2FC46AFD0BD608C500F209AA /* SMLSnippetsIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = SMLSnippetsIcon.icns; path = Graphics/SMLSnippetsIcon.icns; sourceTree = "<group>"; };
 		2FCFEBC00B820D0F00E635EE /* SMLCommandCollectionManagedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMLCommandCollectionManagedObject.h; path = Classes/SMLCommandCollectionManagedObject.h; sourceTree = "<group>"; };
@@ -232,12 +227,12 @@
 		7F7357180D91D2F800F1398B /* SMLProject.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SMLProject.xib; sourceTree = "<group>"; };
 		7F7444C70CF8DDEC00C947C1 /* SMLAdvancedFindPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMLAdvancedFindPanel.h; path = Classes/SMLAdvancedFindPanel.h; sourceTree = "<group>"; };
 		7F7444C80CF8DDEC00C947C1 /* SMLAdvancedFindPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMLAdvancedFindPanel.m; path = Classes/SMLAdvancedFindPanel.m; sourceTree = "<group>"; };
-		7F79EE350D93D5500034017B /* NSString+Smultron.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Smultron.h"; path = "Classes/NSString+Smultron.h"; sourceTree = "<group>"; };
-		7F79EE360D93D5500034017B /* NSString+Smultron.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Smultron.m"; path = "Classes/NSString+Smultron.m"; sourceTree = "<group>"; };
-		7F79EE380D93D5760034017B /* NSImage+Smultron.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSImage+Smultron.h"; path = "Classes/NSImage+Smultron.h"; sourceTree = "<group>"; };
-		7F79EE390D93D5760034017B /* NSImage+Smultron.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSImage+Smultron.m"; path = "Classes/NSImage+Smultron.m"; sourceTree = "<group>"; };
-		7F79EE3B0D93D58C0034017B /* NSToolbarItem+Smultron.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSToolbarItem+Smultron.h"; path = "Classes/NSToolbarItem+Smultron.h"; sourceTree = "<group>"; };
-		7F79EE3C0D93D58C0034017B /* NSToolbarItem+Smultron.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSToolbarItem+Smultron.m"; path = "Classes/NSToolbarItem+Smultron.m"; sourceTree = "<group>"; };
+		7F79EE350D93D5500034017B /* NSString+Textron.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Textron.h"; path = "Classes/NSString+Textron.h"; sourceTree = "<group>"; };
+		7F79EE360D93D5500034017B /* NSString+Textron.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Textron.m"; path = "Classes/NSString+Textron.m"; sourceTree = "<group>"; };
+		7F79EE380D93D5760034017B /* NSImage+Textron.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSImage+Textron.h"; path = "Classes/NSImage+Textron.h"; sourceTree = "<group>"; };
+		7F79EE390D93D5760034017B /* NSImage+Textron.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSImage+Textron.m"; path = "Classes/NSImage+Textron.m"; sourceTree = "<group>"; };
+		7F79EE3B0D93D58C0034017B /* NSToolbarItem+Textron.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSToolbarItem+Textron.h"; path = "Classes/NSToolbarItem+Textron.h"; sourceTree = "<group>"; };
+		7F79EE3C0D93D58C0034017B /* NSToolbarItem+Textron.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSToolbarItem+Textron.m"; path = "Classes/NSToolbarItem+Textron.m"; sourceTree = "<group>"; };
 		7F81FED50BA9DDCD00549CDB /* Tab Bar */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Tab Bar"; path = "Graphics/Tab Bar"; sourceTree = "<group>"; };
 		7F81FEF30BA9DDF600549CDB /* PSMOverflowPopUpButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSMOverflowPopUpButton.h; path = PSMTabBar/PSMOverflowPopUpButton.h; sourceTree = "<group>"; };
 		7F81FEF40BA9DDF600549CDB /* PSMOverflowPopUpButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PSMOverflowPopUpButton.m; path = PSMTabBar/PSMOverflowPopUpButton.m; sourceTree = "<group>"; };
@@ -277,7 +272,7 @@
 		7F980A910B73B652000A9140 /* SMLDataModel3.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; name = SMLDataModel3.xcdatamodel; path = Other/SMLDataModel3.xcdatamodel; sourceTree = "<group>"; };
 		7F980A930B73B660000A9140 /* SyntaxDefinitions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = SyntaxDefinitions.plist; path = Other/SyntaxDefinitions.plist; sourceTree = "<group>"; };
 		7F980A940B73B660000A9140 /* DefaultSnippets.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = DefaultSnippets.plist; path = Other/DefaultSnippets.plist; sourceTree = "<group>"; };
-		7F980A950B73B660000A9140 /* Smultron.sdef */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.sdef; name = Smultron.sdef; path = Other/Smultron.sdef; sourceTree = "<group>"; };
+		7F980A950B73B660000A9140 /* Smultron.sdef */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Smultron.sdef; path = Other/Smultron.sdef; sourceTree = "<group>"; };
 		7F980A960B73B660000A9140 /* Markdown.pl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.perl; name = Markdown.pl; path = Other/Markdown.pl; sourceTree = "<group>"; };
 		7F980AA80B73B6A2000A9140 /* SMLAdvancedFindController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMLAdvancedFindController.h; path = Classes/SMLAdvancedFindController.h; sourceTree = "<group>"; };
 		7F980AA90B73B6A2000A9140 /* SMLAdvancedFindController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMLAdvancedFindController.m; path = Classes/SMLAdvancedFindController.m; sourceTree = "<group>"; };
@@ -353,10 +348,6 @@
 		7F980B070B73B6A2000A9140 /* SMLViewMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMLViewMenuController.h; path = Classes/SMLViewMenuController.h; sourceTree = "<group>"; };
 		7F980B080B73B6A2000A9140 /* SMLViewMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMLViewMenuController.m; path = Classes/SMLViewMenuController.m; sourceTree = "<group>"; };
 		7F9C38DD0BD29AE200B45805 /* SMLDataModel2.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; name = SMLDataModel2.xcdatamodel; path = Other/SMLDataModel2.xcdatamodel; sourceTree = "<group>"; };
-		7FA266680B7796BE00AEA870 /* ICUMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ICUMatcher.h; path = ICU/ICUMatcher.h; sourceTree = "<group>"; };
-		7FA266690B7796BE00AEA870 /* ICUMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ICUMatcher.m; path = ICU/ICUMatcher.m; sourceTree = "<group>"; };
-		7FA2666A0B7796BE00AEA870 /* ICUPattern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ICUPattern.h; path = ICU/ICUPattern.h; sourceTree = "<group>"; };
-		7FA2666B0B7796BE00AEA870 /* ICUPattern.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ICUPattern.m; path = ICU/ICUPattern.m; sourceTree = "<group>"; };
 		7FAD467E0D9E43A600ECD508 /* SMLPrintViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMLPrintViewController.h; path = Classes/SMLPrintViewController.h; sourceTree = "<group>"; };
 		7FAD467F0D9E43A600ECD508 /* SMLPrintViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMLPrintViewController.m; path = Classes/SMLPrintViewController.m; sourceTree = "<group>"; };
 		7FB41E040B7A2A43006ADB1E /* SMLOpenSavePerformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMLOpenSavePerformer.h; path = Classes/SMLOpenSavePerformer.h; sourceTree = "<group>"; };
@@ -468,7 +459,6 @@
 				7F980A860B73B619000A9140 /* Command Line Utility */,
 				7F980A8F0B73B641000A9140 /* ODBEditorSuite.h */,
 				7F81FEDD0BA9DDE100549CDB /* PSMTabBar */,
-				7FD7C3CE0B76561A0097747A /* ICU */,
 				2A37F4B0FDCFA73011CA2CEA /* main.m */,
 			);
 			name = "Other Sources";
@@ -760,9 +750,9 @@
 			isa = PBXGroup;
 			children = (
 				7F79EE340D93D5090034017B /* Headers */,
-				7F79EE390D93D5760034017B /* NSImage+Smultron.m */,
-				7F79EE360D93D5500034017B /* NSString+Smultron.m */,
-				7F79EE3C0D93D58C0034017B /* NSToolbarItem+Smultron.m */,
+				7F79EE390D93D5760034017B /* NSImage+Textron.m */,
+				7F79EE360D93D5500034017B /* NSString+Textron.m */,
+				7F79EE3C0D93D58C0034017B /* NSToolbarItem+Textron.m */,
 			);
 			name = Categories;
 			sourceTree = "<group>";
@@ -770,9 +760,9 @@
 		7F79EE340D93D5090034017B /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				7F79EE380D93D5760034017B /* NSImage+Smultron.h */,
-				7F79EE350D93D5500034017B /* NSString+Smultron.h */,
-				7F79EE3B0D93D58C0034017B /* NSToolbarItem+Smultron.h */,
+				7F79EE380D93D5760034017B /* NSImage+Textron.h */,
+				7F79EE350D93D5500034017B /* NSString+Textron.h */,
+				7F79EE3B0D93D58C0034017B /* NSToolbarItem+Textron.h */,
 			);
 			name = Headers;
 			sourceTree = "<group>";
@@ -869,25 +859,12 @@
 			name = Headers;
 			sourceTree = "<group>";
 		};
-		7FD7C3CE0B76561A0097747A /* ICU */ = {
-			isa = PBXGroup;
-			children = (
-				7FA266680B7796BE00AEA870 /* ICUMatcher.h */,
-				7FA266690B7796BE00AEA870 /* ICUMatcher.m */,
-				7FA2666A0B7796BE00AEA870 /* ICUPattern.h */,
-				7FA2666B0B7796BE00AEA870 /* ICUPattern.m */,
-				2F8CCC120BA8158E00BA791C /* NSStringICUAdditions.h */,
-				2F8CCC110BA8158E00BA791C /* NSStringICUAdditions.m */,
-			);
-			name = ICU;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7F5C26640B73BF2200D2EDDC /* smultron */ = {
+		7F5C26640B73BF2200D2EDDC /* textron */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7F5C26690B73BF4000D2EDDC /* Build configuration list for PBXNativeTarget "smultron" */;
+			buildConfigurationList = 7F5C26690B73BF4000D2EDDC /* Build configuration list for PBXNativeTarget "textron" */;
 			buildPhases = (
 				7F5C26620B73BF2200D2EDDC /* Sources */,
 				7F5C26630B73BF2200D2EDDC /* Frameworks */,
@@ -896,14 +873,14 @@
 			);
 			dependencies = (
 			);
-			name = smultron;
+			name = textron;
 			productName = smultron;
 			productReference = 7F5C26650B73BF2200D2EDDC /* smultron */;
 			productType = "com.apple.product-type.tool";
 		};
-		8D15AC270486D014006FF6A4 /* Smultron */ = {
+		8D15AC270486D014006FF6A4 /* Textron */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "Smultron" */;
+			buildConfigurationList = C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "Textron" */;
 			buildPhases = (
 				8D15AC2B0486D014006FF6A4 /* Resources */,
 				8D15AC300486D014006FF6A4 /* Sources */,
@@ -915,7 +892,7 @@
 			dependencies = (
 				7F5C26730B73BF7A00D2EDDC /* PBXTargetDependency */,
 			);
-			name = Smultron;
+			name = Textron;
 			productInstallPath = "$(HOME)/Applications";
 			productName = Smultron;
 			productReference = 8D15AC370486D014006FF6A4 /* Smultron.app */;
@@ -928,6 +905,7 @@
 			isa = PBXProject;
 			buildConfigurationList = C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "Smultron" */;
 			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
 				English,
@@ -951,8 +929,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8D15AC270486D014006FF6A4 /* Smultron */,
-				7F5C26640B73BF2200D2EDDC /* smultron */,
+				8D15AC270486D014006FF6A4 /* Textron */,
+				7F5C26640B73BF2200D2EDDC /* textron */,
 			);
 		};
 /* End PBXProject section */
@@ -1067,8 +1045,6 @@
 				7F5C287A0B73C49700D2EDDC /* SMLBasicPerformer.m in Sources */,
 				7F5C287E0B73C4AA00D2EDDC /* SMLInterfacePerformer.m in Sources */,
 				7F3443260B74CC3500790653 /* SMLDocumentManagedObject.m in Sources */,
-				7FA2666E0B7796BE00AEA870 /* ICUMatcher.m in Sources */,
-				7FA2666F0B7796BE00AEA870 /* ICUPattern.m in Sources */,
 				7F08532F0B77B55D009544AD /* SMLExtraInterfaceController.m in Sources */,
 				7FB41E060B7A2A43006ADB1E /* SMLOpenSavePerformer.m in Sources */,
 				7F961E950B7A7CE1001E9189 /* SMLEncodingManagedObject.m in Sources */,
@@ -1081,7 +1057,6 @@
 				2FCFEBC20B820D0F00E635EE /* SMLCommandCollectionManagedObject.m in Sources */,
 				2FE2F8400B985D0500ADCF8A /* SMLProject+DocumentViewsController.m in Sources */,
 				2FF0FC2D0BA6C8FF00B21D83 /* SMLGradientBackgroundView.m in Sources */,
-				2F8CCC130BA8158E00BA791C /* NSStringICUAdditions.m in Sources */,
 				7F81FF030BA9DDF600549CDB /* PSMOverflowPopUpButton.m in Sources */,
 				7F81FF050BA9DDF600549CDB /* PSMRolloverButton.m in Sources */,
 				7F81FF060BA9DDF600549CDB /* PSMTabBarCell.m in Sources */,
@@ -1093,9 +1068,9 @@
 				7F2B7FBD0C27272E0058BC55 /* SMLSingleDocumentPanel.m in Sources */,
 				7FBDDEFC0CF794F8003BAFB5 /* SMLProjectWindow.m in Sources */,
 				7F7444C90CF8DDEC00C947C1 /* SMLAdvancedFindPanel.m in Sources */,
-				7F79EE370D93D5500034017B /* NSString+Smultron.m in Sources */,
-				7F79EE3A0D93D5760034017B /* NSImage+Smultron.m in Sources */,
-				7F79EE3D0D93D58C0034017B /* NSToolbarItem+Smultron.m in Sources */,
+				7F79EE370D93D5500034017B /* NSString+Textron.m in Sources */,
+				7F79EE3A0D93D5760034017B /* NSImage+Textron.m in Sources */,
+				7F79EE3D0D93D58C0034017B /* NSToolbarItem+Textron.m in Sources */,
 				7F2B7E330D9463A100C60435 /* SMLSearchField.m in Sources */,
 				7FAD46800D9E43A600ECD508 /* SMLPrintViewController.m in Sources */,
 			);
@@ -1106,7 +1081,7 @@
 /* Begin PBXTargetDependency section */
 		7F5C26730B73BF7A00D2EDDC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7F5C26640B73BF2200D2EDDC /* smultron */;
+			target = 7F5C26640B73BF2200D2EDDC /* textron */;
 			targetProxy = 7F5C26720B73BF7A00D2EDDC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1124,6 +1099,7 @@
 				INSTALL_PATH = "$(HOME)/bin";
 				PREBINDING = NO;
 				PRODUCT_NAME = smultron;
+				VALID_ARCHS = "x86_64 i386";
 				ZERO_LINK = YES;
 			};
 			name = Debug;
@@ -1137,6 +1113,7 @@
 				INSTALL_PATH = "$(HOME)/bin";
 				PREBINDING = NO;
 				PRODUCT_NAME = smultron;
+				VALID_ARCHS = "x86_64 i386";
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -1205,7 +1182,8 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				OTHER_CFLAGS = "-DDEVELOPMENT_STYLE_BUILD";
 				PREBINDING = NO;
-				SDKROOT = macosx10.6;
+				SDKROOT = macosx;
+				VALID_ARCHS = "i386 x86_64";
 			};
 			name = Debug;
 		};
@@ -1230,14 +1208,15 @@
 				HEADER_SEARCH_PATHS_QUOTED_FOR_PROJECT_1 = "\"$(SRCROOT)/ICU/icu/\"";
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PREBINDING = NO;
-				SDKROOT = macosx10.6;
+				SDKROOT = macosx;
+				VALID_ARCHS = "i386 x86_64";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7F5C26690B73BF4000D2EDDC /* Build configuration list for PBXNativeTarget "smultron" */ = {
+		7F5C26690B73BF4000D2EDDC /* Build configuration list for PBXNativeTarget "textron" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7F5C266A0B73BF4000D2EDDC /* Debug */,
@@ -1246,7 +1225,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "Smultron" */ = {
+		C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "Textron" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C05733C808A9546B00998B17 /* Debug */,

@@ -1,7 +1,7 @@
 /*
-Smultron version 3.6b1, 2009-09-12
-Written by Peter Borg, pgw3@mac.com
-Find the latest version at http://smultron.sourceforge.net
+Textron
+Based on Smultron Written by Peter Borg, pgw3@mac.com
+Find the latest version at http://vijaykiran.com/textron
 
 Copyright 2004-2009 Peter Borg
  
@@ -17,7 +17,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
 
 #import "SMLProject+ToolbarController.h"
 
-#import "NSToolbarItem+Smultron.h"
+#import "NSToolbarItem+Textron.h"
 #import "SMLFileMenuController.h"
 #import "SMLPreferencesController.h"
 #import "SMLAdvancedFindController.h"

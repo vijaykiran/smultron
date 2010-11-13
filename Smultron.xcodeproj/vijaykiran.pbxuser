@@ -3,17 +3,17 @@
 	2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
 		activeArchitecturePreference = x86_64;
 		activeBuildConfigurationName = Debug;
-		activeExecutable = 8EDD82B810B7FEF000CAC1F6 /* Smultron */;
-		activeTarget = 8D15AC270486D014006FF6A4 /* Smultron */;
+		activeExecutable = 8EDD82B810B7FEF000CAC1F6 /* Textron */;
+		activeTarget = 8D15AC270486D014006FF6A4 /* Textron */;
 		addToTargets = (
-			8D15AC270486D014006FF6A4 /* Smultron */,
+			8D15AC270486D014006FF6A4 /* Textron */,
 		);
 		breakpoints = (
 		);
 		codeSenseManager = 8EDD834A10B7FEF200CAC1F6 /* Code sense */;
 		executables = (
-			8EDD82B810B7FEF000CAC1F6 /* Smultron */,
-			8EDD82B910B7FEF000CAC1F6 /* smultron */,
+			8EDD82B810B7FEF000CAC1F6 /* Textron */,
+			8EDD82B910B7FEF000CAC1F6 /* textron */,
 		);
 		perUserDictionary = {
 			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA23EDF0692099D00951B8B" = {
@@ -164,82 +164,45 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 281642291;
-			PBXWorkspaceStateSaveDate = 281642291;
+			PBXPerProjectTemplateStateSaveDate = 311357618;
+			PBXWorkspaceStateSaveDate = 311357618;
 		};
 		perUserProjectItems = {
 			8E26943810C2F8EA00F0A569 /* PBXTextBookmark */ = 8E26943810C2F8EA00F0A569 /* PBXTextBookmark */;
 			8E26943910C2F8EA00F0A569 /* PBXTextBookmark */ = 8E26943910C2F8EA00F0A569 /* PBXTextBookmark */;
 			8E26944C10C2FA9400F0A569 /* PBXTextBookmark */ = 8E26944C10C2FA9400F0A569 /* PBXTextBookmark */;
-			8E6CB08510C452CD0032F99C /* PlistBookmark */ = 8E6CB08510C452CD0032F99C /* PlistBookmark */;
+			8E6CB08510C452CD0032F99C /* PBXBookmark */ = 8E6CB08510C452CD0032F99C /* PBXBookmark */;
 			8E6CB0A410C454540032F99C /* PBXTextBookmark */ = 8E6CB0A410C454540032F99C /* PBXTextBookmark */;
 			8E6CB0A510C454540032F99C /* PBXTextBookmark */ = 8E6CB0A510C454540032F99C /* PBXTextBookmark */;
 			8E6CB0E210C457950032F99C /* PBXTextBookmark */ = 8E6CB0E210C457950032F99C /* PBXTextBookmark */;
 			8E878F5910C929380071D003 /* PBXTextBookmark */ = 8E878F5910C929380071D003 /* PBXTextBookmark */;
-			8E878FE510C92DC80071D003 /* PBXTextBookmark */ = 8E878FE510C92DC80071D003 /* PBXTextBookmark */;
 			8E90A25010C6633300F601D3 /* PBXTextBookmark */ = 8E90A25010C6633300F601D3 /* PBXTextBookmark */;
 			8E90A25110C6633300F601D3 /* PBXTextBookmark */ = 8E90A25110C6633300F601D3 /* PBXTextBookmark */;
-			8E90A25310C6633300F601D3 /* PlistBookmark */ = 8E90A25310C6633300F601D3 /* PlistBookmark */;
+			8E90A25310C6633300F601D3 /* PBXBookmark */ = 8E90A25310C6633300F601D3 /* PBXBookmark */;
 			8E90A26F10C6649800F601D3 /* PBXTextBookmark */ = 8E90A26F10C6649800F601D3 /* PBXTextBookmark */;
-			8ECC968010C98A510061F209 /* XDModelBookmark */ = 8ECC968010C98A510061F209 /* XDModelBookmark */;
-			8ECC968110C98A510061F209 /* XDModelBookmark */ = 8ECC968110C98A510061F209 /* XDModelBookmark */;
+			8EA9DF4A128EF0D7002A07AE /* PlistBookmark */ = 8EA9DF4A128EF0D7002A07AE /* PlistBookmark */;
+			8EA9DF7A128EF45F002A07AE /* PBXTextBookmark */ = 8EA9DF7A128EF45F002A07AE /* PBXTextBookmark */;
+			8EA9DF7B128EF45F002A07AE /* PBXTextBookmark */ = 8EA9DF7B128EF45F002A07AE /* PBXTextBookmark */;
+			8EA9DF7C128EF45F002A07AE /* PBXTextBookmark */ = 8EA9DF7C128EF45F002A07AE /* PBXTextBookmark */;
+			8EA9DF7D128EF45F002A07AE /* XCBuildMessageTextBookmark */ = 8EA9DF7D128EF45F002A07AE /* XCBuildMessageTextBookmark */;
+			8EA9DF7E128EF45F002A07AE /* PBXTextBookmark */ = 8EA9DF7E128EF45F002A07AE /* PBXTextBookmark */;
+			8ECC968010C98A510061F209 /* PBXBookmark */ = 8ECC968010C98A510061F209 /* PBXBookmark */;
+			8ECC968110C98A510061F209 /* PBXBookmark */ = 8ECC968110C98A510061F209 /* PBXBookmark */;
 			8ECC968210C98A510061F209 /* PBXTextBookmark */ = 8ECC968210C98A510061F209 /* PBXTextBookmark */;
 			8ECC968310C98A510061F209 /* PBXTextBookmark */ = 8ECC968310C98A510061F209 /* PBXTextBookmark */;
 			8ECC968410C98A510061F209 /* PBXTextBookmark */ = 8ECC968410C98A510061F209 /* PBXTextBookmark */;
 			8ECC968510C98A510061F209 /* PBXTextBookmark */ = 8ECC968510C98A510061F209 /* PBXTextBookmark */;
 			8ECC968610C98A510061F209 /* PBXTextBookmark */ = 8ECC968610C98A510061F209 /* PBXTextBookmark */;
-			8ECC968710C98A510061F209 /* PBXTextBookmark */ = 8ECC968710C98A510061F209 /* PBXTextBookmark */;
 			8ECC968810C98A510061F209 /* PBXTextBookmark */ = 8ECC968810C98A510061F209 /* PBXTextBookmark */;
 			8ECC968910C98A510061F209 /* PBXTextBookmark */ = 8ECC968910C98A510061F209 /* PBXTextBookmark */;
 			8ECC968A10C98A510061F209 /* PBXTextBookmark */ = 8ECC968A10C98A510061F209 /* PBXTextBookmark */;
 			8ECC968B10C98A510061F209 /* PBXTextBookmark */ = 8ECC968B10C98A510061F209 /* PBXTextBookmark */;
 			8ECC968C10C98A510061F209 /* PBXTextBookmark */ = 8ECC968C10C98A510061F209 /* PBXTextBookmark */;
-			8ECC975310C98C580061F209 /* PlistBookmark */ = 8ECC975310C98C580061F209 /* PlistBookmark */;
-			8ECC975510C98C580061F209 /* PBXTextBookmark */ = 8ECC975510C98C580061F209 /* PBXTextBookmark */;
-			8ECC975610C98C580061F209 /* PlistBookmark */ = 8ECC975610C98C580061F209 /* PlistBookmark */;
-			8ECC975710C98C580061F209 /* PlistBookmark */ = 8ECC975710C98C580061F209 /* PlistBookmark */;
+			8ECC975710C98C580061F209 /* PBXBookmark */ = 8ECC975710C98C580061F209 /* PBXBookmark */;
 			8ECC975810C98C580061F209 /* PBXBookmark */ = 8ECC975810C98C580061F209 /* PBXBookmark */;
-			8ECC979210C98F2B0061F209 /* PlistBookmark */ = 8ECC979210C98F2B0061F209 /* PlistBookmark */;
-			8ECC979310C98F2B0061F209 /* PlistBookmark */ = 8ECC979310C98F2B0061F209 /* PlistBookmark */;
-			8ECC979410C98F2B0061F209 /* PlistBookmark */ = 8ECC979410C98F2B0061F209 /* PlistBookmark */;
-			8ECC979610C98F2B0061F209 /* PlistBookmark */ = 8ECC979610C98F2B0061F209 /* PlistBookmark */;
-			8ECC979810C98F2B0061F209 /* PlistBookmark */ = 8ECC979810C98F2B0061F209 /* PlistBookmark */;
-			8ECC979A10C98F2B0061F209 /* PlistBookmark */ = 8ECC979A10C98F2B0061F209 /* PlistBookmark */;
-			8ECC979B10C98F2B0061F209 /* PlistBookmark */ = 8ECC979B10C98F2B0061F209 /* PlistBookmark */;
-			8ECC979D10C98F2B0061F209 /* PlistBookmark */ = 8ECC979D10C98F2B0061F209 /* PlistBookmark */;
-			8ECC979E10C98F2B0061F209 /* PlistBookmark */ = 8ECC979E10C98F2B0061F209 /* PlistBookmark */;
-			8ECC979F10C98F2B0061F209 /* PlistBookmark */ = 8ECC979F10C98F2B0061F209 /* PlistBookmark */;
-			8ECC97A110C98F2B0061F209 /* PlistBookmark */ = 8ECC97A110C98F2B0061F209 /* PlistBookmark */;
-			8ECC97A310C98F2B0061F209 /* PlistBookmark */ = 8ECC97A310C98F2B0061F209 /* PlistBookmark */;
-			8ECC97A410C98F2B0061F209 /* PlistBookmark */ = 8ECC97A410C98F2B0061F209 /* PlistBookmark */;
-			8ECC97AD10C98F920061F209 /* PlistBookmark */ = 8ECC97AD10C98F920061F209 /* PlistBookmark */;
-			8ECC97C710C990210061F209 /* PlistBookmark */ = 8ECC97C710C990210061F209 /* PlistBookmark */;
-			8ECC97EB10C990D20061F209 /* PlistBookmark */ = 8ECC97EB10C990D20061F209 /* PlistBookmark */;
-			8ECC97F110C99A830061F209 /* PlistBookmark */ = 8ECC97F110C99A830061F209 /* PlistBookmark */;
-			8EE1DB7810B8ABD7004446E7 /* PlistBookmark */ = 8EE1DB7810B8ABD7004446E7 /* PlistBookmark */;
-			8EE1DB7A10B8ABD7004446E7 /* PlistBookmark */ = 8EE1DB7A10B8ABD7004446E7 /* PlistBookmark */;
-			8EE1DB7E10B8ABD7004446E7 /* PlistBookmark */ = 8EE1DB7E10B8ABD7004446E7 /* PlistBookmark */;
-			8EE1DB8010B8ABD7004446E7 /* PlistBookmark */ = 8EE1DB8010B8ABD7004446E7 /* PlistBookmark */;
-			8EE1DB8210B8ABD7004446E7 /* PlistBookmark */ = 8EE1DB8210B8ABD7004446E7 /* PlistBookmark */;
-			8EE1DB8410B8ABD7004446E7 /* PlistBookmark */ = 8EE1DB8410B8ABD7004446E7 /* PlistBookmark */;
-			8EE1DB8610B8ABD7004446E7 /* PlistBookmark */ = 8EE1DB8610B8ABD7004446E7 /* PlistBookmark */;
-			8EE1DB8810B8ABD7004446E7 /* PlistBookmark */ = 8EE1DB8810B8ABD7004446E7 /* PlistBookmark */;
-			8EE1DB8A10B8ABD7004446E7 /* PlistBookmark */ = 8EE1DB8A10B8ABD7004446E7 /* PlistBookmark */;
-			8EE1DB8C10B8ABD7004446E7 /* PlistBookmark */ = 8EE1DB8C10B8ABD7004446E7 /* PlistBookmark */;
-			8EE1DB9010B8ABD7004446E7 /* PlistBookmark */ = 8EE1DB9010B8ABD7004446E7 /* PlistBookmark */;
 			8EE1DB9210B8ABD7004446E7 /* PBXTextBookmark */ = 8EE1DB9210B8ABD7004446E7 /* PBXTextBookmark */;
 			8EE1DB9310B8ABD7004446E7 /* PBXTextBookmark */ = 8EE1DB9310B8ABD7004446E7 /* PBXTextBookmark */;
 			8EE1DB9410B8ABD7004446E7 /* PBXTextBookmark */ = 8EE1DB9410B8ABD7004446E7 /* PBXTextBookmark */;
-			8EE1DB9510B8ABD7004446E7 /* PBXBookmark */ = 8EE1DB9510B8ABD7004446E7 /* PBXBookmark */;
-			8EE1DB9710B8ABD7004446E7 /* PBXBookmark */ = 8EE1DB9710B8ABD7004446E7 /* PBXBookmark */;
-			8EE1DB9910B8ABD7004446E7 /* PBXBookmark */ = 8EE1DB9910B8ABD7004446E7 /* PBXBookmark */;
-			8EE1DB9B10B8ABD7004446E7 /* PBXBookmark */ = 8EE1DB9B10B8ABD7004446E7 /* PBXBookmark */;
-			8EE1DB9D10B8ABD7004446E7 /* PBXBookmark */ = 8EE1DB9D10B8ABD7004446E7 /* PBXBookmark */;
-			8EE1DB9F10B8ABD7004446E7 /* PBXBookmark */ = 8EE1DB9F10B8ABD7004446E7 /* PBXBookmark */;
-			8EE1DBA110B8ABD7004446E7 /* PBXBookmark */ = 8EE1DBA110B8ABD7004446E7 /* PBXBookmark */;
-			8EE1DBA310B8ABD7004446E7 /* PBXBookmark */ = 8EE1DBA310B8ABD7004446E7 /* PBXBookmark */;
-			8EE1DBA510B8ABD7004446E7 /* PBXBookmark */ = 8EE1DBA510B8ABD7004446E7 /* PBXBookmark */;
-			8EE1DBA710B8ABD7004446E7 /* PBXBookmark */ = 8EE1DBA710B8ABD7004446E7 /* PBXBookmark */;
 			8EE1DBA910B8ABD7004446E7 /* PBXBookmark */ = 8EE1DBA910B8ABD7004446E7 /* PBXBookmark */;
 			8EE1DBAA10B8ABD7004446E7 /* PBXBookmark */ = 8EE1DBAA10B8ABD7004446E7 /* PBXBookmark */;
 			8EE1DBAB10B8ABD7004446E7 /* PBXBookmark */ = 8EE1DBAB10B8ABD7004446E7 /* PBXBookmark */;
@@ -247,14 +210,7 @@
 			8EE1DBAD10B8ABD7004446E7 /* PBXBookmark */ = 8EE1DBAD10B8ABD7004446E7 /* PBXBookmark */;
 			8EE1DBAE10B8ABD7004446E7 /* PBXBookmark */ = 8EE1DBAE10B8ABD7004446E7 /* PBXBookmark */;
 			8EE1DBAF10B8ABD7004446E7 /* PBXBookmark */ = 8EE1DBAF10B8ABD7004446E7 /* PBXBookmark */;
-			8EE1DBB010B8ABD7004446E7 /* PBXBookmark */ = 8EE1DBB010B8ABD7004446E7 /* PBXBookmark */;
-			8EE1DBB210B8ABD7004446E7 /* PBXBookmark */ = 8EE1DBB210B8ABD7004446E7 /* PBXBookmark */;
-			8EE1DBB410B8ABD7004446E7 /* PBXBookmark */ = 8EE1DBB410B8ABD7004446E7 /* PBXBookmark */;
-			8EE1DBB610B8ABD7004446E7 /* PBXBookmark */ = 8EE1DBB610B8ABD7004446E7 /* PBXBookmark */;
-			8EE1DBB810B8ABD7004446E7 /* PBXBookmark */ = 8EE1DBB810B8ABD7004446E7 /* PBXBookmark */;
-			8EE1DBBA10B8ABD7004446E7 /* PBXBookmark */ = 8EE1DBBA10B8ABD7004446E7 /* PBXBookmark */;
-			8EE1DBBC10B8ABD7004446E7 /* PBXBookmark */ = 8EE1DBBC10B8ABD7004446E7 /* PBXBookmark */;
-			8EE1DBC010B8ABD7004446E7 /* PlistBookmark */ = 8EE1DBC010B8ABD7004446E7 /* PlistBookmark */;
+			8EE1DBC010B8ABD7004446E7 /* PBXBookmark */ = 8EE1DBC010B8ABD7004446E7 /* PBXBookmark */;
 			8EE1DBC310B8ABD7004446E7 /* PBXBookmark */ = 8EE1DBC310B8ABD7004446E7 /* PBXBookmark */;
 			8EE1DBC410B8ABD7004446E7 /* PBXTextBookmark */ = 8EE1DBC410B8ABD7004446E7 /* PBXTextBookmark */;
 			8EE1DBC510B8ABD7004446E7 /* PBXTextBookmark */ = 8EE1DBC510B8ABD7004446E7 /* PBXTextBookmark */;
@@ -324,18 +280,20 @@
 		};
 	};
 	2F8CCC110BA8158E00BA791C /* NSStringICUAdditions.m */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1337, 1330}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 1795}";
-		};
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = NSStringICUAdditions.m;
+		path = /Users/vijaykiran/Work/oss/smultron/ICU/NSStringICUAdditions.m;
+		sourceTree = "<absolute>";
 	};
 	2F8CCC120BA8158E00BA791C /* NSStringICUAdditions.h */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1337, 1162}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 1862}";
-		};
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSStringICUAdditions.h;
+		path = /Users/vijaykiran/Work/oss/smultron/ICU/NSStringICUAdditions.h;
+		sourceTree = "<absolute>";
 	};
 	2FEC50CA0B96DB86000CF1AD /* MultiMarkdown.pl */ = {
 		uiCtxt = {
@@ -372,10 +330,10 @@
 			sepNavVisRange = "{133, 1526}";
 		};
 	};
-	7F5C26640B73BF2200D2EDDC /* smultron */ = {
+	7F5C26640B73BF2200D2EDDC /* textron */ = {
 		activeExec = 0;
 		executables = (
-			8EDD82B910B7FEF000CAC1F6 /* smultron */,
+			8EDD82B910B7FEF000CAC1F6 /* textron */,
 		);
 	};
 	7F5C28780B73C49700D2EDDC /* SMLBasicPerformer.m */ = {
@@ -394,9 +352,9 @@
 	};
 	7F5C287C0B73C4AA00D2EDDC /* SMLInterfacePerformer.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {2308, 10094}}";
-			sepNavSelRange = "{20373, 0}";
-			sepNavVisRange = "{19845, 2863}";
+			sepNavIntBoundsRect = "{{0, 0}, {2636, 13302}}";
+			sepNavSelRange = "{1171, 0}";
+			sepNavVisRange = "{756, 789}";
 		};
 	};
 	7F81FEF30BA9DDF600549CDB /* PSMOverflowPopUpButton.h */ = {
@@ -700,9 +658,9 @@
 	};
 	7F980AA90B73B6A2000A9140 /* SMLAdvancedFindController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {2147, 10066}}";
-			sepNavSelRange = "{722, 0}";
-			sepNavVisRange = "{336, 450}";
+			sepNavIntBoundsRect = "{{0, 0}, {2452, 12708}}";
+			sepNavSelRange = "{4842, 0}";
+			sepNavVisRange = "{4143, 1599}";
 			sepNavWindowFrame = "{{15, 62}, {1615, 961}}";
 		};
 	};
@@ -807,17 +765,17 @@
 	};
 	7F980AEE0B73B6A2000A9140 /* SMLStandardHeader.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {2147, 2380}}";
-			sepNavSelRange = "{6413, 85}";
-			sepNavVisRange = "{0, 2013}";
+			sepNavIntBoundsRect = "{{0, 0}, {2452, 3078}}";
+			sepNavSelRange = "{6944, 0}";
+			sepNavVisRange = "{2655, 767}";
 			sepNavWindowFrame = "{{15, 62}, {1615, 961}}";
 		};
 	};
 	7F980AF40B73B6A2000A9140 /* SMLSyntaxColouring.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {2147, 18802}}";
-			sepNavSelRange = "{51587, 0}";
-			sepNavVisRange = "{51433, 232}";
+			sepNavIntBoundsRect = "{{0, 0}, {2452, 23040}}";
+			sepNavSelRange = "{1093, 0}";
+			sepNavVisRange = "{706, 686}";
 		};
 	};
 	7F980AFA0B73B6A2000A9140 /* SMLProject+TableViewDelegate.m */ = {
@@ -1007,37 +965,41 @@
 		};
 	};
 	7FA266680B7796BE00AEA870 /* ICUMatcher.h */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1727, 1764}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 2083}";
-		};
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = ICUMatcher.h;
+		path = /Users/vijaykiran/Work/oss/smultron/ICU/ICUMatcher.h;
+		sourceTree = "<absolute>";
 	};
 	7FA266690B7796BE00AEA870 /* ICUMatcher.m */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1337, 3374}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 1459}";
-		};
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = ICUMatcher.m;
+		path = /Users/vijaykiran/Work/oss/smultron/ICU/ICUMatcher.m;
+		sourceTree = "<absolute>";
 	};
 	7FA2666A0B7796BE00AEA870 /* ICUPattern.h */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1601, 1708}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 2017}";
-		};
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = ICUPattern.h;
+		path = /Users/vijaykiran/Work/oss/smultron/ICU/ICUPattern.h;
+		sourceTree = "<absolute>";
 	};
 	7FA2666B0B7796BE00AEA870 /* ICUPattern.m */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1337, 3444}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 1528}";
-		};
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = ICUPattern.m;
+		path = /Users/vijaykiran/Work/oss/smultron/ICU/ICUPattern.m;
+		sourceTree = "<absolute>";
 	};
-	8D15AC270486D014006FF6A4 /* Smultron */ = {
+	8D15AC270486D014006FF6A4 /* Textron */ = {
 		activeExec = 0;
 		executables = (
-			8EDD82B810B7FEF000CAC1F6 /* Smultron */,
+			8EDD82B810B7FEF000CAC1F6 /* Textron */,
 		);
 	};
 	8E26943810C2F8EA00F0A569 /* PBXTextBookmark */ = {
@@ -1045,7 +1007,7 @@
 		fRef = 7F980AC10B73B6A2000A9140 /* SMLFileMenuController.m */;
 		name = "SMLFileMenuController.m: 64";
 		rLen = 0;
-		rLoc = 1762;
+		rLoc = 1753;
 		rType = 0;
 		vrLen = 2546;
 		vrLoc = 4284;
@@ -1065,30 +1027,24 @@
 		fRef = 7F5C28780B73C49700D2EDDC /* SMLBasicPerformer.m */;
 		name = "SMLBasicPerformer.m: 134";
 		rLen = 0;
-		rLoc = 5842;
+		rLoc = 5833;
 		rType = 0;
 		vrLen = 1714;
 		vrLoc = 5174;
 	};
-	8E6CB08510C452CD0032F99C /* PlistBookmark */ = {
-		isa = PlistBookmark;
+	8E6CB08510C452CD0032F99C /* PBXBookmark */ = {
+		isa = PBXBookmark;
 		fRef = 7F980A940B73B660000A9140 /* DefaultSnippets.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
 		name = /Users/vijaykiran/Work/sources/smultron/Other/DefaultSnippets.plist;
-		rLen = 0;
-		rLoc = 9223372036854775808;
 	};
 	8E6CB0A410C454540032F99C /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 7F2B7E310D9463A100C60435 /* SMLSearchField.h */;
 		name = "SMLSearchField.h: 18";
 		rLen = 11;
-		rLoc = 730;
+		rLoc = 721;
 		rType = 0;
-		vrLen = 769;
+		vrLen = 766;
 		vrLoc = 0;
 	};
 	8E6CB0A510C454540032F99C /* PBXTextBookmark */ = {
@@ -1096,9 +1052,9 @@
 		fRef = 7F2B7E320D9463A100C60435 /* SMLSearchField.m */;
 		name = "SMLSearchField.m: 22";
 		rLen = 11;
-		rLoc = 826;
+		rLoc = 817;
 		rType = 0;
-		vrLen = 1526;
+		vrLen = 1523;
 		vrLoc = 133;
 	};
 	8E6CB0E210C457950032F99C /* PBXTextBookmark */ = {
@@ -1106,9 +1062,9 @@
 		fRef = 7F980B010B73B6A2000A9140 /* SMLProject+ToolbarController.h */;
 		name = "SMLProject+ToolbarController.h: 28";
 		rLen = 40;
-		rLoc = 986;
+		rLoc = 977;
 		rType = 0;
-		vrLen = 1339;
+		vrLen = 1336;
 		vrLoc = 0;
 	};
 	8E878F5910C929380071D003 /* PBXTextBookmark */ = {
@@ -1116,27 +1072,17 @@
 		fRef = 7F5C287B0B73C4AA00D2EDDC /* SMLInterfacePerformer.h */;
 		name = "SMLInterfacePerformer.h: 20";
 		rLen = 0;
-		rLoc = 794;
+		rLoc = 785;
 		rType = 0;
-		vrLen = 1760;
+		vrLen = 1757;
 		vrLoc = 689;
-	};
-	8E878FE510C92DC80071D003 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 7F980AF40B73B6A2000A9140 /* SMLSyntaxColouring.m */;
-		name = "SMLSyntaxColouring.m: 1125";
-		rLen = 0;
-		rLoc = 51587;
-		rType = 0;
-		vrLen = 232;
-		vrLoc = 51433;
 	};
 	8E90A25010C6633300F601D3 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 7F980ACF0B73B6A2000A9140 /* SMLLayoutManager.m */;
 		name = "SMLLayoutManager.m: 24";
 		rLen = 0;
-		rLoc = 838;
+		rLoc = 829;
 		rType = 0;
 		vrLen = 2176;
 		vrLoc = 0;
@@ -1151,16 +1097,10 @@
 		vrLen = 2504;
 		vrLoc = 126;
 	};
-	8E90A25310C6633300F601D3 /* PlistBookmark */ = {
-		isa = PlistBookmark;
+	8E90A25310C6633300F601D3 /* PBXBookmark */ = {
+		isa = PBXBookmark;
 		fRef = 8D15AC360486D014006FF6A4 /* Info.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
 		name = /Users/vijaykiran/Work/sources/smultron/Info.plist;
-		rLen = 0;
-		rLoc = 9223372036854775808;
 	};
 	8E90A26F10C6649800F601D3 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -1172,333 +1112,79 @@
 		vrLen = 3630;
 		vrLoc = 0;
 	};
-	8ECC968010C98A510061F209 /* XDModelBookmark */ = {
-		isa = XDModelBookmark;
-		fRef = 7F980A910B73B652000A9140 /* SMLDataModel3.xcdatamodel */;
-		fallbackIsa = PBXBookmark;
-		uiCtxt = {
-			UIContextForDetailArea = {
-				_indexOfSelectedPane = 0;
-				_indexOfSelectedView = 1;
-			};
-			UIContextForEntityArea = {
-				_indexOfSelectedView = 0;
-				chosenTableColumnns = (
-					"ET Entity",
-					"ET Abstract",
-					"ET Class",
-				);
-				chosenTableColumnns_sortDirections = (
-					YES,
-				);
-				chosenTableColumnns_sortKeys = (
-					name,
-				);
-				chosenTableColumnns_sortSelectors = (
-					"_xdcaseInsensitiveNumericCompare:",
-				);
-				chosenTableWidths = (
-					103.000000,
-					22.000000,
-					145.080078,
-				);
-			};
-			UIContextForLayoutManager = {
-				detailSplitGeometry = {
-					_collapsingFrameDimension = 0;
-					_indexOfCollapsedView = 0;
-					_percentageOfCollapsedView = 0;
-					isCollapsed = yes;
-					sizes = (
-						"{{0, 0}, {898, 218}}",
-						"{{903, 0}, {471, 218}}",
-					);
-				};
-				diagramSplitGeometry = {
-					_collapsingFrameDimension = 0;
-					_indexOfCollapsedView = 0;
-					_percentageOfCollapsedView = 0;
-					isCollapsed = yes;
-					sizes = (
-						"{{0, 0}, {1374, 220}}",
-						"{{0, 225}, {1374, 381}}",
-					);
-				};
-				tableSplitGeometry = {
-					_collapsingFrameDimension = 0;
-					_indexOfCollapsedView = 0;
-					_percentageOfCollapsedView = 0;
-					isCollapsed = yes;
-					sizes = (
-						"{{0, 0}, {295, 218}}",
-						"{{300, 0}, {596, 218}}",
-					);
-				};
-			};
-			UIContextForPropertyArea = {
-				_indexOfSelectedView = 0;
-				chosenTableColumnnFRTs = (
-					"FT Fetch Request",
-					"FT Predicate",
-				);
-				chosenTableColumnnFRTs_sortDirections = (
-					YES,
-				);
-				chosenTableColumnnFRTs_sortKeys = (
-					name,
-				);
-				chosenTableColumnnFRTs_sortSelectors = (
-					"_xdcaseInsensitiveNumericCompare:",
-				);
-				chosenTableColumnnsAT = (
-					"AT Attribute",
-					"AT Type",
-				);
-				chosenTableColumnnsAT_sortDirections = (
-					YES,
-				);
-				chosenTableColumnnsAT_sortKeys = (
-					name,
-				);
-				chosenTableColumnnsAT_sortSelectors = (
-					"_xdcaseInsensitiveNumericCompare:",
-				);
-				chosenTableColumnnsFPT = (
-					"FP FetchedProperty",
-					"FP Destination",
-					"FP Predicate",
-				);
-				chosenTableColumnnsFPT_sortDirections = (
-					YES,
-				);
-				chosenTableColumnnsFPT_sortKeys = (
-					name,
-				);
-				chosenTableColumnnsFPT_sortSelectors = (
-					"_xdcaseInsensitiveNumericCompare:",
-				);
-				chosenTableColumnnsPT = (
-					"PT Property",
-					"PT Kind",
-					"PT SharedKeyOne",
-				);
-				chosenTableColumnnsPT_sortDirections = (
-					YES,
-				);
-				chosenTableColumnnsPT_sortKeys = (
-					name,
-				);
-				chosenTableColumnnsPT_sortSelectors = (
-					"_xdcaseInsensitiveNumericCompare:",
-				);
-				chosenTableColumnnsRT = (
-					"RT Relationship",
-					"RT Destination",
-				);
-				chosenTableColumnnsRT_sortDirections = (
-					YES,
-				);
-				chosenTableColumnnsRT_sortKeys = (
-					name,
-				);
-				chosenTableColumnnsRT_sortSelectors = (
-					"_xdcaseInsensitiveNumericCompare:",
-				);
-				chosenTableWidthsAT = (
-					128.000000,
-					64.000000,
-				);
-				chosenTableWidthsFPT = (
-					128.000000,
-					64.000000,
-					144.764160,
-				);
-				chosenTableWidthsFRT = (
-					128.000000,
-					249.764160,
-				);
-				chosenTableWidthsPT = (
-					128.000000,
-					108.110840,
-					333.570801,
-				);
-				chosenTableWidthsRT = (
-					128.000000,
-					64.000000,
-				);
-			};
-			"xdesign model browser state key - shown/hidden" = 1;
-			"xdesign model diagram view visible rect key" = "{{-331, 384}, {1359, 366}}";
-			"xdesign model selected entities key" = (
-			);
-			"xdesign model selected properties key" = (
-			);
-		};
+	8EA9DF49128EF0C7002A07AE /* cobol.plist */ = {
+		isa = PBXFileReference;
+		name = cobol.plist;
+		path = "/Users/vijaykiran/Work/oss/smultron/Syntax Definitions/cobol.plist";
+		sourceTree = "<absolute>";
 	};
-	8ECC968110C98A510061F209 /* XDModelBookmark */ = {
-		isa = XDModelBookmark;
-		fRef = 7F9C38DD0BD29AE200B45805 /* SMLDataModel2.xcdatamodel */;
+	8EA9DF4A128EF0D7002A07AE /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8EA9DF49128EF0C7002A07AE /* cobol.plist */;
 		fallbackIsa = PBXBookmark;
-		uiCtxt = {
-			UIContextForDetailArea = {
-				_indexOfSelectedPane = 0;
-				_indexOfSelectedView = 1;
-			};
-			UIContextForEntityArea = {
-				_indexOfSelectedView = 0;
-				chosenTableColumnns = (
-					"ET Entity",
-					"ET Abstract",
-					"ET Class",
-				);
-				chosenTableColumnns_sortDirections = (
-					YES,
-				);
-				chosenTableColumnns_sortKeys = (
-					name,
-				);
-				chosenTableColumnns_sortSelectors = (
-					"_xdcaseInsensitiveNumericCompare:",
-				);
-				chosenTableWidths = (
-					103.000000,
-					22.000000,
-					146.080078,
-				);
-			};
-			UIContextForLayoutManager = {
-				detailSplitGeometry = {
-					_collapsingFrameDimension = 0;
-					_indexOfCollapsedView = 0;
-					_percentageOfCollapsedView = 0;
-					isCollapsed = yes;
-					sizes = (
-						"{{0, 0}, {897, 220}}",
-						"{{902, 0}, {472, 220}}",
-					);
-				};
-				diagramSplitGeometry = {
-					_collapsingFrameDimension = 0;
-					_indexOfCollapsedView = 0;
-					_percentageOfCollapsedView = 0;
-					isCollapsed = yes;
-					sizes = (
-						"{{0, 0}, {1374, 220}}",
-						"{{0, 225}, {1374, 381}}",
-					);
-				};
-				tableSplitGeometry = {
-					_collapsingFrameDimension = 0;
-					_indexOfCollapsedView = 0;
-					_percentageOfCollapsedView = 0;
-					isCollapsed = yes;
-					sizes = (
-						"{{0, 0}, {296, 220}}",
-						"{{301, 0}, {596, 220}}",
-					);
-				};
-			};
-			UIContextForPropertyArea = {
-				_indexOfSelectedView = 0;
-				chosenTableColumnnFRTs = (
-					"FT Fetch Request",
-					"FT Predicate",
-				);
-				chosenTableColumnnFRTs_sortDirections = (
-					YES,
-				);
-				chosenTableColumnnFRTs_sortKeys = (
-					name,
-				);
-				chosenTableColumnnFRTs_sortSelectors = (
-					"_xdcaseInsensitiveNumericCompare:",
-				);
-				chosenTableColumnnsAT = (
-					"AT Attribute",
-					"AT Type",
-				);
-				chosenTableColumnnsAT_sortDirections = (
-					YES,
-				);
-				chosenTableColumnnsAT_sortKeys = (
-					name,
-				);
-				chosenTableColumnnsAT_sortSelectors = (
-					"_xdcaseInsensitiveNumericCompare:",
-				);
-				chosenTableColumnnsFPT = (
-					"FP FetchedProperty",
-					"FP Destination",
-					"FP Predicate",
-				);
-				chosenTableColumnnsFPT_sortDirections = (
-					YES,
-				);
-				chosenTableColumnnsFPT_sortKeys = (
-					name,
-				);
-				chosenTableColumnnsFPT_sortSelectors = (
-					"_xdcaseInsensitiveNumericCompare:",
-				);
-				chosenTableColumnnsPT = (
-					"PT Property",
-					"PT Kind",
-					"PT SharedKeyOne",
-				);
-				chosenTableColumnnsPT_sortDirections = (
-					YES,
-				);
-				chosenTableColumnnsPT_sortKeys = (
-					name,
-				);
-				chosenTableColumnnsPT_sortSelectors = (
-					"_xdcaseInsensitiveNumericCompare:",
-				);
-				chosenTableColumnnsRT = (
-					"RT Relationship",
-					"RT Destination",
-				);
-				chosenTableColumnnsRT_sortDirections = (
-					YES,
-				);
-				chosenTableColumnnsRT_sortKeys = (
-					name,
-				);
-				chosenTableColumnnsRT_sortSelectors = (
-					"_xdcaseInsensitiveNumericCompare:",
-				);
-				chosenTableWidthsAT = (
-					128.000000,
-					64.000000,
-				);
-				chosenTableWidthsFPT = (
-					128.000000,
-					64.000000,
-					144.764160,
-				);
-				chosenTableWidthsFRT = (
-					128.000000,
-					249.764160,
-				);
-				chosenTableWidthsPT = (
-					128.000000,
-					108.110840,
-					333.570801,
-				);
-				chosenTableWidthsRT = (
-					128.000000,
-					64.000000,
-				);
-			};
-			"xdesign model browser state key - shown/hidden" = 1;
-			"xdesign model diagram view visible rect key" = "{{-331, 357}, {1359, 366}}";
-			"xdesign model selected entities key" = (
-				"<XDPMEntity: 0x201d0e2c0>{name=Project, package=}",
-			);
-			"xdesign model selected properties key" = (
-				"<XDPMAttribute: 0x20237d840>{name=documents, type=(null)}",
-			);
-		};
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/vijaykiran/Work/oss/smultron/Syntax Definitions/cobol.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	8EA9DF7A128EF45F002A07AE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7F980AEE0B73B6A2000A9140 /* SMLStandardHeader.h */;
+		name = "SMLStandardHeader.h: 161";
+		rLen = 0;
+		rLoc = 6944;
+		rType = 0;
+		vrLen = 767;
+		vrLoc = 2655;
+	};
+	8EA9DF7B128EF45F002A07AE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7F980AF40B73B6A2000A9140 /* SMLSyntaxColouring.m */;
+		name = "SMLSyntaxColouring.m: 31";
+		rLen = 0;
+		rLoc = 1093;
+		rType = 0;
+		vrLen = 686;
+		vrLoc = 706;
+	};
+	8EA9DF7C128EF45F002A07AE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7F5C287C0B73C4AA00D2EDDC /* SMLInterfacePerformer.m */;
+		name = "SMLInterfacePerformer.m: 32";
+		rLen = 0;
+		rLoc = 1171;
+		rType = 0;
+		vrLen = 789;
+		vrLoc = 756;
+	};
+	8EA9DF7D128EF45F002A07AE /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Member reference type 'struct objc_object *' is a pointer; maybe you meant to use '->'?";
+		fRef = 7F980AA90B73B6A2000A9140 /* SMLAdvancedFindController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 141;
+		rType = 1;
+	};
+	8EA9DF7E128EF45F002A07AE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7F980AA90B73B6A2000A9140 /* SMLAdvancedFindController.m */;
+		name = "SMLAdvancedFindController.m: 142";
+		rLen = 0;
+		rLoc = 4842;
+		rType = 0;
+		vrLen = 1593;
+		vrLoc = 4143;
+	};
+	8ECC968010C98A510061F209 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 7F980A910B73B652000A9140 /* SMLDataModel3.xcdatamodel */;
+	};
+	8ECC968110C98A510061F209 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 7F9C38DD0BD29AE200B45805 /* SMLDataModel2.xcdatamodel */;
 	};
 	8ECC968210C98A510061F209 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -1545,19 +1231,9 @@
 		fRef = 7F980ACD0B73B6A2000A9140 /* SMLInfoController.m */;
 		name = "SMLInfoController.m: 23";
 		rLen = 0;
-		rLoc = 937;
+		rLoc = 928;
 		rType = 0;
 		vrLen = 1528;
-		vrLoc = 0;
-	};
-	8ECC968710C98A510061F209 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 7F980AEE0B73B6A2000A9140 /* SMLStandardHeader.h */;
-		name = "SMLStandardHeader.h: 153";
-		rLen = 85;
-		rLoc = 6413;
-		rType = 0;
-		vrLen = 2013;
 		vrLoc = 0;
 	};
 	8ECC968810C98A510061F209 /* PBXTextBookmark */ = {
@@ -1577,7 +1253,7 @@
 		rLen = 0;
 		rLoc = 0;
 		rType = 0;
-		vrLen = 1110;
+		vrLen = 1107;
 		vrLoc = 0;
 	};
 	8ECC968A10C98A510061F209 /* PBXTextBookmark */ = {
@@ -1597,7 +1273,7 @@
 		rLen = 0;
 		rLoc = 0;
 		rType = 0;
-		vrLen = 1102;
+		vrLen = 1099;
 		vrLoc = 0;
 	};
 	8ECC968C10C98A510061F209 /* PBXTextBookmark */ = {
@@ -1605,350 +1281,21 @@
 		fRef = 7F08532D0B77B55D009544AD /* SMLExtraInterfaceController.h */;
 		name = "SMLExtraInterfaceController.h: 20";
 		rLen = 0;
-		rLoc = 805;
+		rLoc = 796;
 		rType = 0;
 		vrLen = 2123;
 		vrLoc = 336;
 	};
-	8ECC974D10C98C580061F209 /* c.plist */ = {
-		isa = PBXFileReference;
-		name = c.plist;
-		path = "/Users/vijaykiran/Work/sources/smultron/Syntax Definitions/c.plist";
-		sourceTree = "<absolute>";
-	};
-	8ECC974F10C98C580061F209 /* cpp.plist */ = {
-		isa = PBXFileReference;
-		name = cpp.plist;
-		path = "/Users/vijaykiran/Work/sources/smultron/Syntax Definitions/cpp.plist";
-		sourceTree = "<absolute>";
-	};
-	8ECC975110C98C580061F209 /* d.plist */ = {
-		isa = PBXFileReference;
-		name = d.plist;
-		path = "/Users/vijaykiran/Work/sources/smultron/Syntax Definitions/d.plist";
-		sourceTree = "<absolute>";
-	};
-	8ECC975310C98C580061F209 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8ECC975410C98C580061F209 /* xml.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = "/Users/vijaykiran/Work/sources/smultron/Syntax Definitions/xml.plist";
-		rLen = 0;
-		rLoc = 9223372036854775807;
-	};
-	8ECC975410C98C580061F209 /* xml.plist */ = {
-		isa = PBXFileReference;
-		name = xml.plist;
-		path = "/Users/vijaykiran/Work/sources/smultron/Syntax Definitions/xml.plist";
-		sourceTree = "<absolute>";
-	};
-	8ECC975510C98C580061F209 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 7F980AA90B73B6A2000A9140 /* SMLAdvancedFindController.m */;
-		name = "SMLAdvancedFindController.m: 15";
-		rLen = 0;
-		rLoc = 722;
-		rType = 0;
-		vrLen = 1614;
-		vrLoc = 763;
-	};
-	8ECC975610C98C580061F209 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8EE1DB7D10B8ABD7004446E7 /* ada.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = "/Users/vijaykiran/Work/sources/smultron/Syntax Definitions/ada.plist";
-		rLen = 0;
-		rLoc = 9223372036854775807;
-	};
-	8ECC975710C98C580061F209 /* PlistBookmark */ = {
-		isa = PlistBookmark;
+	8ECC975710C98C580061F209 /* PBXBookmark */ = {
+		isa = PBXBookmark;
 		fRef = 7F980A930B73B660000A9140 /* SyntaxDefinitions.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-			11,
-		);
 		name = /Users/vijaykiran/Work/sources/smultron/Other/SyntaxDefinitions.plist;
-		rLen = 0;
-		rLoc = 9223372036854775807;
 	};
 	8ECC975810C98C580061F209 /* PBXBookmark */ = {
 		isa = PBXBookmark;
 		fRef = 7F980A950B73B660000A9140 /* Smultron.sdef */;
 	};
-	8ECC975C10C98C580061F209 /* cnd.plist */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = text.plist.xml;
-		name = cnd.plist;
-		path = "/Users/vijaykiran/Work/sources/smultron/Syntax Definitions/cnd.plist";
-		sourceTree = "<absolute>";
-	};
-	8ECC976A10C98DD00061F209 /* jsp.plist */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = text.plist.xml;
-		name = jsp.plist;
-		path = "/Users/vijaykiran/Work/sources/smultron/Syntax Definitions/jsp.plist";
-		sourceTree = "<absolute>";
-	};
-	8ECC976C10C98DD00061F209 /* java.plist */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = text.plist.xml;
-		name = java.plist;
-		path = "/Users/vijaykiran/Work/sources/smultron/Syntax Definitions/java.plist";
-		sourceTree = "<absolute>";
-	};
-	8ECC979210C98F2B0061F209 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8ECC976A10C98DD00061F209 /* jsp.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = "/Users/vijaykiran/Work/sources/smultron/Syntax Definitions/jsp.plist";
-		rLen = 0;
-		rLoc = 9223372036854775807;
-	};
-	8ECC979310C98F2B0061F209 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8ECC975110C98C580061F209 /* d.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = "/Users/vijaykiran/Work/sources/smultron/Syntax Definitions/d.plist";
-		rLen = 0;
-		rLoc = 9223372036854775807;
-	};
-	8ECC979410C98F2B0061F209 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8ECC979510C98F2B0061F209 /* dylan.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = "/Users/vijaykiran/Work/sources/smultron/Syntax Definitions/dylan.plist";
-		rLen = 0;
-		rLoc = 9223372036854775807;
-	};
-	8ECC979510C98F2B0061F209 /* dylan.plist */ = {
-		isa = PBXFileReference;
-		name = dylan.plist;
-		path = "/Users/vijaykiran/Work/sources/smultron/Syntax Definitions/dylan.plist";
-		sourceTree = "<absolute>";
-	};
-	8ECC979610C98F2B0061F209 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8ECC979710C98F2B0061F209 /* gedcom.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = "/Users/vijaykiran/Work/sources/smultron/Syntax Definitions/gedcom.plist";
-		rLen = 0;
-		rLoc = 9223372036854775807;
-	};
-	8ECC979710C98F2B0061F209 /* gedcom.plist */ = {
-		isa = PBXFileReference;
-		name = gedcom.plist;
-		path = "/Users/vijaykiran/Work/sources/smultron/Syntax Definitions/gedcom.plist";
-		sourceTree = "<absolute>";
-	};
-	8ECC979810C98F2B0061F209 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8ECC979910C98F2B0061F209 /* html.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = "/Users/vijaykiran/Work/sources/smultron/Syntax Definitions/html.plist";
-		rLen = 0;
-		rLoc = 9223372036854775807;
-	};
-	8ECC979910C98F2B0061F209 /* html.plist */ = {
-		isa = PBXFileReference;
-		name = html.plist;
-		path = "/Users/vijaykiran/Work/sources/smultron/Syntax Definitions/html.plist";
-		sourceTree = "<absolute>";
-	};
-	8ECC979A10C98F2B0061F209 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8EE1DB8F10B8ABD7004446E7 /* awk.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = "/Users/vijaykiran/Work/sources/smultron/Syntax Definitions/awk.plist";
-		rLen = 0;
-		rLoc = 9223372036854775807;
-	};
-	8ECC979B10C98F2B0061F209 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8ECC979C10C98F2B0061F209 /* batch.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = "/Users/vijaykiran/Work/sources/smultron/Syntax Definitions/batch.plist";
-		rLen = 0;
-		rLoc = 9223372036854775807;
-	};
-	8ECC979C10C98F2B0061F209 /* batch.plist */ = {
-		isa = PBXFileReference;
-		name = batch.plist;
-		path = "/Users/vijaykiran/Work/sources/smultron/Syntax Definitions/batch.plist";
-		sourceTree = "<absolute>";
-	};
-	8ECC979D10C98F2B0061F209 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8ECC974D10C98C580061F209 /* c.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = "/Users/vijaykiran/Work/sources/smultron/Syntax Definitions/c.plist";
-		rLen = 0;
-		rLoc = 9223372036854775807;
-	};
-	8ECC979E10C98F2B0061F209 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8ECC974F10C98C580061F209 /* cpp.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = "/Users/vijaykiran/Work/sources/smultron/Syntax Definitions/cpp.plist";
-		rLen = 0;
-		rLoc = 9223372036854775807;
-	};
-	8ECC979F10C98F2B0061F209 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8ECC97A010C98F2B0061F209 /* erl.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = "/Users/vijaykiran/Work/sources/smultron/Syntax Definitions/erl.plist";
-		rLen = 0;
-		rLoc = 9223372036854775807;
-	};
-	8ECC97A010C98F2B0061F209 /* erl.plist */ = {
-		isa = PBXFileReference;
-		name = erl.plist;
-		path = "/Users/vijaykiran/Work/sources/smultron/Syntax Definitions/erl.plist";
-		sourceTree = "<absolute>";
-	};
-	8ECC97A110C98F2B0061F209 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8ECC97A210C98F2B0061F209 /* haskell.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = "/Users/vijaykiran/Work/sources/smultron/Syntax Definitions/haskell.plist";
-		rLen = 0;
-		rLoc = 9223372036854775807;
-	};
-	8ECC97A210C98F2B0061F209 /* haskell.plist */ = {
-		isa = PBXFileReference;
-		name = haskell.plist;
-		path = "/Users/vijaykiran/Work/sources/smultron/Syntax Definitions/haskell.plist";
-		sourceTree = "<absolute>";
-	};
-	8ECC97A310C98F2B0061F209 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8ECC976C10C98DD00061F209 /* java.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = "/Users/vijaykiran/Work/sources/smultron/Syntax Definitions/java.plist";
-		rLen = 0;
-		rLoc = 9223372036854775807;
-	};
-	8ECC97A410C98F2B0061F209 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8ECC97A510C98F2B0061F209 /* latex.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = "/Users/vijaykiran/Work/sources/smultron/Syntax Definitions/latex.plist";
-		rLen = 0;
-		rLoc = 9223372036854775807;
-	};
-	8ECC97A510C98F2B0061F209 /* latex.plist */ = {
-		isa = PBXFileReference;
-		name = latex.plist;
-		path = "/Users/vijaykiran/Work/sources/smultron/Syntax Definitions/latex.plist";
-		sourceTree = "<absolute>";
-	};
-	8ECC97AD10C98F920061F209 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8EE1DB7710B8ABD7004446E7 /* actionscript.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-			removeFromFunction,
-		);
-		name = "/Users/vijaykiran/Work/sources/smultron/Syntax Definitions/actionscript.plist";
-		rLen = 0;
-		rLoc = 9223372036854775807;
-	};
-	8ECC97C710C990210061F209 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8ECC97C810C990210061F209 /* objectivec.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-			functionDefinition,
-		);
-		name = "/Users/vijaykiran/Work/sources/smultron/Syntax Definitions/objectivec.plist";
-		rLen = 0;
-		rLoc = 9223372036854775807;
-	};
-	8ECC97C810C990210061F209 /* objectivec.plist */ = {
-		isa = PBXFileReference;
-		name = objectivec.plist;
-		path = "/Users/vijaykiran/Work/sources/smultron/Syntax Definitions/objectivec.plist";
-		sourceTree = "<absolute>";
-	};
-	8ECC97EB10C990D20061F209 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8ECC975C10C98C580061F209 /* cnd.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-			endVariable,
-		);
-		name = "/Users/vijaykiran/Work/sources/smultron/Syntax Definitions/cnd.plist";
-		rLen = 0;
-		rLoc = 9223372036854775807;
-	};
-	8ECC97F110C99A830061F209 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8ECC97F210C99A830061F209 /* cnd.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-			recolourKeywordIfAlreadyColoured,
-		);
-		name = "/Users/vijaykiran/Work/sources/smultron/Syntax Definitions/cnd.plist";
-		rLen = 0;
-		rLoc = 9223372036854775807;
-	};
-	8ECC97F210C99A830061F209 /* cnd.plist */ = {
-		isa = PBXFileReference;
-		name = cnd.plist;
-		path = "/Users/vijaykiran/Work/sources/smultron/Syntax Definitions/cnd.plist";
-		sourceTree = "<absolute>";
-	};
-	8EDD82B810B7FEF000CAC1F6 /* Smultron */ = {
+	8EDD82B810B7FEF000CAC1F6 /* Textron */ = {
 		isa = PBXExecutable;
 		activeArgIndices = (
 		);
@@ -1971,7 +1318,7 @@
 		executableSystemSymbolLevel = 0;
 		executableUserSymbolLevel = 0;
 		libgmallocEnabled = 0;
-		name = Smultron;
+		name = Textron;
 		savedGlobals = {
 		};
 		showTypeColumn = 0;
@@ -1980,7 +1327,7 @@
 		variableFormatDictionary = {
 		};
 	};
-	8EDD82B910B7FEF000CAC1F6 /* smultron */ = {
+	8EDD82B910B7FEF000CAC1F6 /* textron */ = {
 		isa = PBXExecutable;
 		activeArgIndices = (
 		);
@@ -2002,7 +1349,7 @@
 		executableSystemSymbolLevel = 0;
 		executableUserSymbolLevel = 0;
 		libgmallocEnabled = 0;
-		name = smultron;
+		name = textron;
 		showTypeColumn = 0;
 		sourceDirectories = (
 		);
@@ -2020,228 +1367,6 @@
 	8EDD834A10B7FEF200CAC1F6 /* Code sense */ = {
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
-	};
-	8EE1DB7710B8ABD7004446E7 /* actionscript.plist */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = text.plist.xml;
-		name = actionscript.plist;
-		path = "/Users/vijaykiran/Work/sources/smultron/Syntax Definitions/actionscript.plist";
-		sourceTree = "<absolute>";
-	};
-	8EE1DB7810B8ABD7004446E7 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8EE1DB7910B8ABD7004446E7 /* actionscript3.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = "/Users/vijaykiran/Work/sources/smultron/Syntax Definitions/actionscript3.plist";
-		rLen = 0;
-		rLoc = 9223372036854775808;
-	};
-	8EE1DB7910B8ABD7004446E7 /* actionscript3.plist */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = text.plist.xml;
-		name = actionscript3.plist;
-		path = "/Users/vijaykiran/Work/sources/smultron/Syntax Definitions/actionscript3.plist";
-		sourceTree = "<absolute>";
-	};
-	8EE1DB7A10B8ABD7004446E7 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8EE1DB7B10B8ABD7004446E7 /* active4d.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = "/Users/vijaykiran/Work/sources/smultron/Syntax Definitions/active4d.plist";
-		rLen = 0;
-		rLoc = 9223372036854775808;
-	};
-	8EE1DB7B10B8ABD7004446E7 /* active4d.plist */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = text.plist.xml;
-		name = active4d.plist;
-		path = "/Users/vijaykiran/Work/sources/smultron/Syntax Definitions/active4d.plist";
-		sourceTree = "<absolute>";
-	};
-	8EE1DB7D10B8ABD7004446E7 /* ada.plist */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = text.plist.xml;
-		name = ada.plist;
-		path = "/Users/vijaykiran/Work/sources/smultron/Syntax Definitions/ada.plist";
-		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavWindowFrame = "{{146, -25}, {1615, 961}}";
-		};
-	};
-	8EE1DB7E10B8ABD7004446E7 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8EE1DB7F10B8ABD7004446E7 /* ampl.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = "/Users/vijaykiran/Work/sources/smultron/Syntax Definitions/ampl.plist";
-		rLen = 0;
-		rLoc = 9223372036854775808;
-	};
-	8EE1DB7F10B8ABD7004446E7 /* ampl.plist */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = text.plist.xml;
-		name = ampl.plist;
-		path = "/Users/vijaykiran/Work/sources/smultron/Syntax Definitions/ampl.plist";
-		sourceTree = "<absolute>";
-	};
-	8EE1DB8010B8ABD7004446E7 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8EE1DB8110B8ABD7004446E7 /* apache.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = "/Users/vijaykiran/Work/sources/smultron/Syntax Definitions/apache.plist";
-		rLen = 0;
-		rLoc = 9223372036854775808;
-	};
-	8EE1DB8110B8ABD7004446E7 /* apache.plist */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = text.plist.xml;
-		name = apache.plist;
-		path = "/Users/vijaykiran/Work/sources/smultron/Syntax Definitions/apache.plist";
-		sourceTree = "<absolute>";
-	};
-	8EE1DB8210B8ABD7004446E7 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8EE1DB8310B8ABD7004446E7 /* applescript.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = "/Users/vijaykiran/Work/sources/smultron/Syntax Definitions/applescript.plist";
-		rLen = 0;
-		rLoc = 9223372036854775808;
-	};
-	8EE1DB8310B8ABD7004446E7 /* applescript.plist */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = text.plist.xml;
-		name = applescript.plist;
-		path = "/Users/vijaykiran/Work/sources/smultron/Syntax Definitions/applescript.plist";
-		sourceTree = "<absolute>";
-	};
-	8EE1DB8410B8ABD7004446E7 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8EE1DB8510B8ABD7004446E7 /* asm-mips.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = "/Users/vijaykiran/Work/sources/smultron/Syntax Definitions/asm-mips.plist";
-		rLen = 0;
-		rLoc = 9223372036854775808;
-	};
-	8EE1DB8510B8ABD7004446E7 /* asm-mips.plist */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = text.plist.xml;
-		name = "asm-mips.plist";
-		path = "/Users/vijaykiran/Work/sources/smultron/Syntax Definitions/asm-mips.plist";
-		sourceTree = "<absolute>";
-	};
-	8EE1DB8610B8ABD7004446E7 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8EE1DB8710B8ABD7004446E7 /* asm-x86.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = "/Users/vijaykiran/Work/sources/smultron/Syntax Definitions/asm-x86.plist";
-		rLen = 0;
-		rLoc = 9223372036854775808;
-	};
-	8EE1DB8710B8ABD7004446E7 /* asm-x86.plist */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = text.plist.xml;
-		name = "asm-x86.plist";
-		path = "/Users/vijaykiran/Work/sources/smultron/Syntax Definitions/asm-x86.plist";
-		sourceTree = "<absolute>";
-	};
-	8EE1DB8810B8ABD7004446E7 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8EE1DB8910B8ABD7004446E7 /* asp-js.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = "/Users/vijaykiran/Work/sources/smultron/Syntax Definitions/asp-js.plist";
-		rLen = 0;
-		rLoc = 9223372036854775808;
-	};
-	8EE1DB8910B8ABD7004446E7 /* asp-js.plist */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = text.plist.xml;
-		name = "asp-js.plist";
-		path = "/Users/vijaykiran/Work/sources/smultron/Syntax Definitions/asp-js.plist";
-		sourceTree = "<absolute>";
-	};
-	8EE1DB8A10B8ABD7004446E7 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8EE1DB8B10B8ABD7004446E7 /* asp-vb.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = "/Users/vijaykiran/Work/sources/smultron/Syntax Definitions/asp-vb.plist";
-		rLen = 0;
-		rLoc = 9223372036854775808;
-	};
-	8EE1DB8B10B8ABD7004446E7 /* asp-vb.plist */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = text.plist.xml;
-		name = "asp-vb.plist";
-		path = "/Users/vijaykiran/Work/sources/smultron/Syntax Definitions/asp-vb.plist";
-		sourceTree = "<absolute>";
-	};
-	8EE1DB8C10B8ABD7004446E7 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8EE1DB8D10B8ABD7004446E7 /* aspdotnet-cs.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = "/Users/vijaykiran/Work/sources/smultron/Syntax Definitions/aspdotnet-cs.plist";
-		rLen = 0;
-		rLoc = 9223372036854775808;
-	};
-	8EE1DB8D10B8ABD7004446E7 /* aspdotnet-cs.plist */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = text.plist.xml;
-		name = "aspdotnet-cs.plist";
-		path = "/Users/vijaykiran/Work/sources/smultron/Syntax Definitions/aspdotnet-cs.plist";
-		sourceTree = "<absolute>";
-	};
-	8EE1DB8F10B8ABD7004446E7 /* awk.plist */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = text.plist.xml;
-		name = awk.plist;
-		path = "/Users/vijaykiran/Work/sources/smultron/Syntax Definitions/awk.plist";
-		sourceTree = "<absolute>";
-	};
-	8EE1DB9010B8ABD7004446E7 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8EE1DB9110B8ABD7004446E7 /* aspdotnet-vb.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = "/Users/vijaykiran/Work/sources/smultron/Syntax Definitions/aspdotnet-vb.plist";
-		rLen = 0;
-		rLoc = 9223372036854775808;
-	};
-	8EE1DB9110B8ABD7004446E7 /* aspdotnet-vb.plist */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = text.plist.xml;
-		name = "aspdotnet-vb.plist";
-		path = "/Users/vijaykiran/Work/sources/smultron/Syntax Definitions/aspdotnet-vb.plist";
-		sourceTree = "<absolute>";
 	};
 	8EE1DB9210B8ABD7004446E7 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -2273,116 +1398,6 @@
 		vrLen = 196;
 		vrLoc = 0;
 	};
-	8EE1DB9510B8ABD7004446E7 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 8EE1DB9610B8ABD7004446E7 /* SMLNewIcon.pdf */;
-	};
-	8EE1DB9610B8ABD7004446E7 /* SMLNewIcon.pdf */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = image.pdf;
-		name = SMLNewIcon.pdf;
-		path = "/Users/vijaykiran/Work/sources/smultron/Graphics/Toolbar Icons/SMLNewIcon.pdf";
-		sourceTree = "<absolute>";
-	};
-	8EE1DB9710B8ABD7004446E7 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 8EE1DB9810B8ABD7004446E7 /* SMLOpenIcon.pdf */;
-	};
-	8EE1DB9810B8ABD7004446E7 /* SMLOpenIcon.pdf */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = image.pdf;
-		name = SMLOpenIcon.pdf;
-		path = "/Users/vijaykiran/Work/sources/smultron/Graphics/Toolbar Icons/SMLOpenIcon.pdf";
-		sourceTree = "<absolute>";
-	};
-	8EE1DB9910B8ABD7004446E7 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 8EE1DB9A10B8ABD7004446E7 /* SMLPreviewIcon.pdf */;
-	};
-	8EE1DB9A10B8ABD7004446E7 /* SMLPreviewIcon.pdf */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = image.pdf;
-		name = SMLPreviewIcon.pdf;
-		path = "/Users/vijaykiran/Work/sources/smultron/Graphics/Toolbar Icons/SMLPreviewIcon.pdf";
-		sourceTree = "<absolute>";
-	};
-	8EE1DB9B10B8ABD7004446E7 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 8EE1DB9C10B8ABD7004446E7 /* SMLRunIcon.pdf */;
-	};
-	8EE1DB9C10B8ABD7004446E7 /* SMLRunIcon.pdf */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = image.pdf;
-		name = SMLRunIcon.pdf;
-		path = "/Users/vijaykiran/Work/sources/smultron/Graphics/Toolbar Icons/SMLRunIcon.pdf";
-		sourceTree = "<absolute>";
-	};
-	8EE1DB9D10B8ABD7004446E7 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 8EE1DB9E10B8ABD7004446E7 /* SMLSaveIcon.pdf */;
-	};
-	8EE1DB9E10B8ABD7004446E7 /* SMLSaveIcon.pdf */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = image.pdf;
-		name = SMLSaveIcon.pdf;
-		path = "/Users/vijaykiran/Work/sources/smultron/Graphics/Toolbar Icons/SMLSaveIcon.pdf";
-		sourceTree = "<absolute>";
-	};
-	8EE1DB9F10B8ABD7004446E7 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 8EE1DBA010B8ABD7004446E7 /* SMLTabBarClose.pdf */;
-	};
-	8EE1DBA010B8ABD7004446E7 /* SMLTabBarClose.pdf */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = image.pdf;
-		name = SMLTabBarClose.pdf;
-		path = "/Users/vijaykiran/Work/sources/smultron/Graphics/Tab Bar/SMLTabBarClose.pdf";
-		sourceTree = "<absolute>";
-	};
-	8EE1DBA110B8ABD7004446E7 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 8EE1DBA210B8ABD7004446E7 /* SMLTabBarClosePressed.pdf */;
-	};
-	8EE1DBA210B8ABD7004446E7 /* SMLTabBarClosePressed.pdf */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = image.pdf;
-		name = SMLTabBarClosePressed.pdf;
-		path = "/Users/vijaykiran/Work/sources/smultron/Graphics/Tab Bar/SMLTabBarClosePressed.pdf";
-		sourceTree = "<absolute>";
-	};
-	8EE1DBA310B8ABD7004446E7 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 8EE1DBA410B8ABD7004446E7 /* SMLTabBarCloseRollover.pdf */;
-	};
-	8EE1DBA410B8ABD7004446E7 /* SMLTabBarCloseRollover.pdf */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = image.pdf;
-		name = SMLTabBarCloseRollover.pdf;
-		path = "/Users/vijaykiran/Work/sources/smultron/Graphics/Tab Bar/SMLTabBarCloseRollover.pdf";
-		sourceTree = "<absolute>";
-	};
-	8EE1DBA510B8ABD7004446E7 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 8EE1DBA610B8ABD7004446E7 /* SMLTabBarOverflow.pdf */;
-	};
-	8EE1DBA610B8ABD7004446E7 /* SMLTabBarOverflow.pdf */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = image.pdf;
-		name = SMLTabBarOverflow.pdf;
-		path = "/Users/vijaykiran/Work/sources/smultron/Graphics/Tab Bar/SMLTabBarOverflow.pdf";
-		sourceTree = "<absolute>";
-	};
-	8EE1DBA710B8ABD7004446E7 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 8EE1DBA810B8ABD7004446E7 /* SMLTabBarOverflowPressed.pdf */;
-	};
-	8EE1DBA810B8ABD7004446E7 /* SMLTabBarOverflowPressed.pdf */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = image.pdf;
-		name = SMLTabBarOverflowPressed.pdf;
-		path = "/Users/vijaykiran/Work/sources/smultron/Graphics/Tab Bar/SMLTabBarOverflowPressed.pdf";
-		sourceTree = "<absolute>";
-	};
 	8EE1DBA910B8ABD7004446E7 /* PBXBookmark */ = {
 		isa = PBXBookmark;
 		fRef = 7F9809BC0B73B4E1000A9140 /* SMLDocumentIcon.icns */;
@@ -2411,93 +1426,10 @@
 		isa = PBXBookmark;
 		fRef = 7F5097700D95A65500D62D67 /* SMLDefaultIcon.png */;
 	};
-	8EE1DBB010B8ABD7004446E7 /* PBXBookmark */ = {
+	8EE1DBC010B8ABD7004446E7 /* PBXBookmark */ = {
 		isa = PBXBookmark;
-		fRef = 8EE1DBB110B8ABD7004446E7 /* SMLNewCollectionIcon.pdf */;
-	};
-	8EE1DBB110B8ABD7004446E7 /* SMLNewCollectionIcon.pdf */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = image.pdf;
-		name = SMLNewCollectionIcon.pdf;
-		path = "/Users/vijaykiran/Work/sources/smultron/Graphics/Toolbar Icons/SMLNewCollectionIcon.pdf";
-		sourceTree = "<absolute>";
-	};
-	8EE1DBB210B8ABD7004446E7 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 8EE1DBB310B8ABD7004446E7 /* SMLInfoIcon.pdf */;
-	};
-	8EE1DBB310B8ABD7004446E7 /* SMLInfoIcon.pdf */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = image.pdf;
-		name = SMLInfoIcon.pdf;
-		path = "/Users/vijaykiran/Work/sources/smultron/Graphics/Toolbar Icons/SMLInfoIcon.pdf";
-		sourceTree = "<absolute>";
-	};
-	8EE1DBB410B8ABD7004446E7 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 8EE1DBB510B8ABD7004446E7 /* SMLFunctionIcon.pdf */;
-	};
-	8EE1DBB510B8ABD7004446E7 /* SMLFunctionIcon.pdf */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = image.pdf;
-		name = SMLFunctionIcon.pdf;
-		path = "/Users/vijaykiran/Work/sources/smultron/Graphics/Toolbar Icons/SMLFunctionIcon.pdf";
-		sourceTree = "<absolute>";
-	};
-	8EE1DBB610B8ABD7004446E7 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 8EE1DBB710B8ABD7004446E7 /* SMLCloseIcon.pdf */;
-	};
-	8EE1DBB710B8ABD7004446E7 /* SMLCloseIcon.pdf */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = image.pdf;
-		name = SMLCloseIcon.pdf;
-		path = "/Users/vijaykiran/Work/sources/smultron/Graphics/Toolbar Icons/SMLCloseIcon.pdf";
-		sourceTree = "<absolute>";
-	};
-	8EE1DBB810B8ABD7004446E7 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 8EE1DBB910B8ABD7004446E7 /* SMLAdvancedFindIcon.pdf */;
-	};
-	8EE1DBB910B8ABD7004446E7 /* SMLAdvancedFindIcon.pdf */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = image.pdf;
-		name = SMLAdvancedFindIcon.pdf;
-		path = "/Users/vijaykiran/Work/sources/smultron/Graphics/Toolbar Icons/SMLAdvancedFindIcon.pdf";
-		sourceTree = "<absolute>";
-	};
-	8EE1DBBA10B8ABD7004446E7 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 8EE1DBBB10B8ABD7004446E7 /* SMLOpenSaveIcon.pdf */;
-	};
-	8EE1DBBB10B8ABD7004446E7 /* SMLOpenSaveIcon.pdf */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = image.pdf;
-		name = SMLOpenSaveIcon.pdf;
-		path = "/Users/vijaykiran/Work/sources/smultron/Graphics/Preferences Icons/SMLOpenSaveIcon.pdf";
-		sourceTree = "<absolute>";
-	};
-	8EE1DBBC10B8ABD7004446E7 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 8EE1DBBD10B8ABD7004446E7 /* SMLAppearanceIcon.pdf */;
-	};
-	8EE1DBBD10B8ABD7004446E7 /* SMLAppearanceIcon.pdf */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = image.pdf;
-		name = SMLAppearanceIcon.pdf;
-		path = "/Users/vijaykiran/Work/sources/smultron/Graphics/Preferences Icons/SMLAppearanceIcon.pdf";
-		sourceTree = "<absolute>";
-	};
-	8EE1DBC010B8ABD7004446E7 /* PlistBookmark */ = {
-		isa = PlistBookmark;
 		fRef = 2F6CF2E10B848515008B0386 /* DefaultCommands.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
 		name = /Users/vijaykiran/Work/sources/smultron/Other/DefaultCommands.plist;
-		rLen = 0;
-		rLoc = 9223372036854775808;
 	};
 	8EE1DBC310B8ABD7004446E7 /* PBXBookmark */ = {
 		isa = PBXBookmark;
@@ -2700,7 +1632,7 @@
 		rLen = 0;
 		rLoc = 0;
 		rType = 0;
-		vrLen = 1977;
+		vrLen = 1970;
 		vrLoc = 0;
 	};
 	8EE1DBD810B8ABD7004446E7 /* PBXTextBookmark */ = {
@@ -2740,7 +1672,7 @@
 		rLen = 0;
 		rLoc = 0;
 		rType = 0;
-		vrLen = 980;
+		vrLen = 977;
 		vrLoc = 0;
 	};
 	8EEFD44A10C502DA0059FB09 /* PBXTextBookmark */ = {
@@ -2748,7 +1680,7 @@
 		fRef = 7F980B020B73B6A2000A9140 /* SMLProject+ToolbarController.m */;
 		name = "SMLProject+ToolbarController.m: 65";
 		rLen = 0;
-		rLoc = 2121;
+		rLoc = 2112;
 		rType = 0;
 		vrLen = 1989;
 		vrLoc = 0;
@@ -2758,7 +1690,7 @@
 		fRef = 7F980ACC0B73B6A2000A9140 /* SMLInfoController.h */;
 		name = "SMLInfoController.h: 28";
 		rLen = 6;
-		rLoc = 1078;
+		rLoc = 1069;
 		rType = 0;
 		vrLen = 1670;
 		vrLoc = 0;
@@ -2768,7 +1700,7 @@
 		fRef = 2A37F4AEFDCFA73011CA2CEA /* SMLProject.h */;
 		name = "SMLProject.h: 93";
 		rLen = 18;
-		rLoc = 3289;
+		rLoc = 3280;
 		rType = 0;
 		vrLen = 2403;
 		vrLoc = 2102;
@@ -2778,7 +1710,7 @@
 		fRef = 2A37F4ACFDCFA73011CA2CEA /* SMLProject.m */;
 		name = "SMLProject.m: 220";
 		rLen = 0;
-		rLoc = 9584;
+		rLoc = 9575;
 		rType = 0;
 		vrLen = 1409;
 		vrLoc = 8922;
@@ -2788,7 +1720,7 @@
 		fRef = 7F980AD10B73B6A2000A9140 /* SMLLineNumbers.m */;
 		name = "SMLLineNumbers.m: 40";
 		rLen = 18;
-		rLoc = 1309;
+		rLoc = 1300;
 		rType = 0;
 		vrLen = 1442;
 		vrLoc = 38;
@@ -2815,7 +1747,7 @@
 		fRef = 7F980AD30B73B6A2000A9140 /* SMLMainController.m */;
 		name = "SMLMainController.m: 79";
 		rLen = 0;
-		rLoc = 2547;
+		rLoc = 2538;
 		rType = 0;
 		vrLen = 1572;
 		vrLoc = 1260;
@@ -2825,7 +1757,7 @@
 		fRef = 7F961E940B7A7CE1001E9189 /* SMLEncodingManagedObject.m */;
 		name = "SMLEncodingManagedObject.m: 33";
 		rLen = 11;
-		rLoc = 1155;
+		rLoc = 1146;
 		rType = 0;
 		vrLen = 1528;
 		vrLoc = 0;
@@ -2835,9 +1767,9 @@
 		fRef = 7F980AFA0B73B6A2000A9140 /* SMLProject+TableViewDelegate.m */;
 		name = "SMLProject+TableViewDelegate.m: 109";
 		rLen = 0;
-		rLoc = 4327;
+		rLoc = 4318;
 		rType = 0;
-		vrLen = 795;
+		vrLen = 792;
 		vrLoc = 3593;
 	};
 	8EEFD4EE10C50B120059FB09 /* PBXTextBookmark */ = {
@@ -2845,7 +1777,7 @@
 		fRef = 7F980ADB0B73B6A2000A9140 /* SMLPreferencesController.m */;
 		name = "SMLPreferencesController.m: 577";
 		rLen = 0;
-		rLoc = 31584;
+		rLoc = 31575;
 		rType = 0;
 		vrLen = 1391;
 		vrLoc = 29925;

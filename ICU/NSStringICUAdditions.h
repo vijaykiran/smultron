@@ -18,12 +18,7 @@
 */
 +(NSStringEncoding)nativeUTF16Encoding;
 
-/*!
-    @method     stringWithICUString:
-    @abstract   Create an NSString from a UTF16 encoded string.
-    @discussion Create an NSString from a UTF16 encoded string.
-*/
-+(NSString *)stringWithICUString:(void *)utf16EncodedString;
+
 
 /*!
     @method     UTF16String

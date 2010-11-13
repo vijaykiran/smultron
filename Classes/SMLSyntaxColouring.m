@@ -1,9 +1,9 @@
 // SMLTextView delegate
 
 /*
-Smultron version 3.6b1, 2009-09-12
-Written by Peter Borg, pgw3@mac.com
-Find the latest version at http://smultron.sourceforge.net
+Textron
+Based on Smultron Written by Peter Borg, pgw3@mac.com
+Find the latest version at http://vijaykiran.com/textron
 
 Copyright 2004-2009 Peter Borg
  
@@ -240,7 +240,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
 	syntaxDictionary = [[NSDictionary alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:fileToUse ofType:@"plist" inDirectory:@"Syntax Definitions"]];
 	
 	if (!syntaxDictionary) { // If it can't find it in the bundle try in Application Support
-		NSString *path = [[[[[NSHomeDirectory() stringByAppendingPathComponent:@"Library"] stringByAppendingPathComponent:@"Application Support"] stringByAppendingPathComponent:@"Smultron"] stringByAppendingPathComponent:fileToUse] stringByAppendingString:@".plist"];
+		NSString *path = [[[[[NSHomeDirectory() stringByAppendingPathComponent:@"Library"] stringByAppendingPathComponent:@"Application Support"] stringByAppendingPathComponent:@"Textron"] stringByAppendingPathComponent:fileToUse] stringByAppendingString:@".plist"];
 		syntaxDictionary = [[NSDictionary alloc] initWithContentsOfFile:path];
 	}
 	
